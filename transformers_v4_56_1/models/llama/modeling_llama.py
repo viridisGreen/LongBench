@@ -19,6 +19,7 @@
 # limitations under the License.
 from typing import Callable, Optional, Union
 
+import argparse
 import torch
 from torch import nn
 
@@ -352,6 +353,7 @@ class LlamaModel(LlamaPreTrainedModel):
     @auto_docstring
     def forward(
         self,
+        offload_config: Optional[argparse.Namespace] = None,
         input_ids: Optional[torch.LongTensor] = None,
         attention_mask: Optional[torch.Tensor] = None,
         position_ids: Optional[torch.LongTensor] = None,
@@ -391,7 +393,10 @@ class LlamaModel(LlamaPreTrainedModel):
         hidden_states = inputs_embeds
         position_embeddings = self.rotary_emb(hidden_states, position_ids)
 
-        for i,decoder_layer in enumerate(self.layers[: self.config.num_hidden_layers]):
+        for i, decoder_layer in enumerate(self.layers[: self.config.num_hidden_layers]):
+            if offload_config is not None: 
+                if i in offload_config.skip_layer_id:
+                    continue
             hidden_states = decoder_layer(
                 hidden_states,
                 attention_mask=causal_mask,
@@ -428,6 +433,7 @@ class LlamaForCausalLM(LlamaPreTrainedModel, GenerationMixin):
     @auto_docstring
     def forward(
         self,
+        offload_config: Optional[argparse.Namespace] = None,
         input_ids: Optional[torch.LongTensor] = None,
         attention_mask: Optional[torch.Tensor] = None,
         position_ids: Optional[torch.LongTensor] = None,
@@ -457,6 +463,7 @@ class LlamaForCausalLM(LlamaPreTrainedModel, GenerationMixin):
         "Hey, are you conscious? Can you talk to me?\nI'm not conscious, but I can talk to you."
         ```"""
         outputs: BaseModelOutputWithPast = self.model(
+            offload_config=offload_config,
             input_ids=input_ids,
             attention_mask=attention_mask,
             position_ids=position_ids,

@@ -100,7 +100,7 @@ def post_process(response, model_name):
         response = response.split("<eoa>")[0]
     return response
 
-def get_pred(rank, world_size, data, max_length, max_gen, prompt_format, dataset, device, model_name, model2path, out_path):
+def get_pred(args, rank, world_size, data, max_length, max_gen, prompt_format, dataset, device, model_name, model2path, out_path):
     device = torch.device(f'cuda:{rank}')
     model, tokenizer = load_model_and_tokenizer(model2path[model_name], model_name, device)
     for json_obj in tqdm(data):
@@ -125,6 +125,7 @@ def get_pred(rank, world_size, data, max_length, max_gen, prompt_format, dataset
         if dataset == "samsum": # prevent illegal output on samsum (model endlessly repeat "\nDialogue"), might be a prompting issue
             output = model.generate(
                 **input,
+                offload_config=args,
                 max_new_tokens=max_gen,
                 num_beams=1,
                 do_sample=False,
@@ -135,6 +136,7 @@ def get_pred(rank, world_size, data, max_length, max_gen, prompt_format, dataset
         else:
             output = model.generate(
                 **input,
+                offload_config=args,
                 max_new_tokens=max_gen,
                 num_beams=1,
                 do_sample=False,
@@ -293,6 +295,7 @@ if __name__ == "__main__":
 
         # 仅主进程运行：rank=0，world_size=1
         get_pred(
+            args=args, 
             rank=0,
             world_size=1,
             data=data_all,
