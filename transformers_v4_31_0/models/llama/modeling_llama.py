@@ -20,6 +20,8 @@
 """ PyTorch LLaMA model."""
 import math
 from typing import List, Optional, Tuple, Union
+import argparse
+from ipdb import set_trace as st
 
 import torch
 import torch.nn.functional as F
@@ -598,6 +600,7 @@ class LlamaModel(LlamaPreTrainedModel):
     @add_start_docstrings_to_model_forward(LLAMA_INPUTS_DOCSTRING)
     def forward(
         self,
+        offload_config: Optional[argparse.Namespace] = None,
         input_ids: torch.LongTensor = None,
         attention_mask: Optional[torch.Tensor] = None,
         position_ids: Optional[torch.LongTensor] = None,
@@ -673,6 +676,13 @@ class LlamaModel(LlamaPreTrainedModel):
 
             past_key_value = past_key_values[idx] if past_key_values is not None else None
 
+            # gemini生成的，不知道什么东西
+            if offload_config is not None and hasattr(offload_config, 'skip_layer_id') and offload_config.skip_layer_id is not None and idx in offload_config.skip_layer_id:
+                if use_cache:
+                    next_decoder_cache += (past_key_value,)
+                # print(f"skip layer {idx}")
+                continue
+
             if self.gradient_checkpointing and self.training:
 
                 def create_custom_forward(module):
@@ -690,6 +700,10 @@ class LlamaModel(LlamaPreTrainedModel):
                     None,
                 )
             else:
+                if offload_config is not None: 
+                    if idx in offload_config.skip_layer_id:
+                        # print(f"skip layer {idx}")
+                        continue
                 layer_outputs = decoder_layer(
                     hidden_states,
                     attention_mask=attention_mask,
@@ -759,6 +773,7 @@ class LlamaForCausalLM(LlamaPreTrainedModel):
     @replace_return_docstrings(output_type=CausalLMOutputWithPast, config_class=_CONFIG_FOR_DOC)
     def forward(
         self,
+        offload_config: Optional[argparse.Namespace] = None,
         input_ids: torch.LongTensor = None,
         attention_mask: Optional[torch.Tensor] = None,
         position_ids: Optional[torch.LongTensor] = None,
@@ -804,6 +819,7 @@ class LlamaForCausalLM(LlamaPreTrainedModel):
 
         # decoder outputs consists of (dec_features, layer_state, dec_hidden, dec_attn)
         outputs = self.model(
+            offload_config=offload_config,
             input_ids=input_ids,
             attention_mask=attention_mask,
             position_ids=position_ids,
@@ -875,6 +891,7 @@ class LlamaForCausalLM(LlamaPreTrainedModel):
                 "past_key_values": past_key_values,
                 "use_cache": kwargs.get("use_cache"),
                 "attention_mask": attention_mask,
+                "offload_config": kwargs.get("offload_config"), # 新增此行
             }
         )
         return model_inputs

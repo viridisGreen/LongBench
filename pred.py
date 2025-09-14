@@ -2,7 +2,8 @@ import os
 from datasets import load_dataset
 import torch
 import json
-from transformers_v4_56_1 import AutoTokenizer, LlamaTokenizer, LlamaForCausalLM, AutoModelForCausalLM
+# from transformers_v4_56_1 import AutoTokenizer, LlamaTokenizer, LlamaForCausalLM, AutoModelForCausalLM
+from transformers_v4_31_0 import AutoTokenizer, LlamaTokenizer, LlamaForCausalLM, AutoModelForCausalLM
 from tqdm import tqdm
 import numpy as np
 import random
