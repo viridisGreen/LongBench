@@ -2,7 +2,7 @@ import os
 from datasets import load_dataset
 import torch
 import json
-from transformers import AutoTokenizer, LlamaTokenizer, LlamaForCausalLM, AutoModelForCausalLM
+from transformers_v4_56_1 import AutoTokenizer, LlamaTokenizer, LlamaForCausalLM, AutoModelForCausalLM
 from tqdm import tqdm
 import numpy as np
 import random
@@ -10,6 +10,8 @@ import argparse
 from llama_flash_attn_monkey_patch import replace_llama_attn_with_flash_attn
 import torch.distributed as dist
 import torch.multiprocessing as mp
+from ipdb import set_trace as st
+import copy
 
 def parse_args(args=None):
     parser = argparse.ArgumentParser()
@@ -19,6 +21,9 @@ def parse_args(args=None):
     ])
     parser.add_argument('--e', action='store_true', help="Evaluate on LongBench-E")
     parser.add_argument('--cuda_visible_devices', type=str, default=None, help="CUDA visible devices")
+    parser.add_argument('--offload_layer_id', type=int, nargs='+', help='List of layer IDs to offload')
+    parser.add_argument('--skip_layer_id', type=int, nargs='+', help='List of layer IDs to skip')
+    parser.add_argument('--quantize_type', type=str, default='none', choices=['none', 'INT8', 'INT4'], help='Quantization type')
     return parser.parse_args(args)
 
 # This is the customized building prompt for chat models
@@ -257,18 +262,28 @@ if __name__ == "__main__":
     # 单进程、顺序评测
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     for dataset in datasets:
+        store_path = copy.deepcopy(model_name)
+        if args.offload_layer_id:
+            ids_str = '-'.join(map(str, args.offload_layer_id))
+            store_path += f"_O{ids_str}"
+        if args.skip_layer_id:
+            ids_str = '-'.join(map(str, args.skip_layer_id))
+            store_path += f"_S{ids_str}"
+        if args.quantize_type != 'none':
+            quant_level = ''.join(filter(str.isdigit, args.quantize_type)) # 从 "INT8" 中提取 "8"
+            store_path += f"_Q{quant_level}"
         if args.e:
             # LongBench-E：从 hub 读取
             data = load_dataset("THUDM/LongBench", f"{dataset}_e", split="test")
-            os.makedirs(f"pred_e/{model_name}", exist_ok=True)
-            out_path = f"pred_e/{model_name}/{dataset}.jsonl"
+            os.makedirs(f"pred_e/{store_path}", exist_ok=True)
+            out_path = f"pred_e/{store_path}/{dataset}.jsonl"
         else:
             # v1 本地数据路径（保持你的原始路径）
             file_path = os.path.join("/home/wanghesong/Datasets/LongBench", f"{dataset}.jsonl")
             data = load_dataset('json', data_files={'test': file_path}, split='test')
-            if not os.path.exists(f"pred/{model_name}"):
-                os.makedirs(f"pred/{model_name}")
-            out_path = f"pred/{model_name}/{dataset}.jsonl"
+            if not os.path.exists(f"pred/{store_path}"):
+                os.makedirs(f"pred/{store_path}")
+            out_path = f"pred/{store_path}/{dataset}.jsonl"
 
         prompt_format = dataset2prompt[dataset]
         max_gen = dataset2maxlen[dataset]
@@ -295,58 +310,3 @@ if __name__ == "__main__":
         if torch.cuda.is_available():
             torch.cuda.empty_cache()
 
-
-
-
-# if __name__ == '__main__':
-#     seed_everything(42)
-#     args = parse_args()
-#     # world_size = torch.cuda.device_count()
-#     world_size = 1
-#     mp.set_start_method('spawn', force=True)
-
-#     model2path = json.load(open("config/model2path.json", "r"))
-#     model2maxlen = json.load(open("config/model2maxlen.json", "r"))
-#     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-#     model_name = args.model
-#     # define your model
-#     max_length = model2maxlen[model_name]
-#     if args.e:
-#         datasets = ["qasper", "multifieldqa_en", "hotpotqa", "2wikimqa", "gov_report", "multi_news", \
-#             "trec", "triviaqa", "samsum", "passage_count", "passage_retrieval_en", "lcc", "repobench-p"]
-#     else:
-#         datasets = ["narrativeqa", "qasper", "multifieldqa_en", "multifieldqa_zh", "hotpotqa", "2wikimqa", "musique", \
-#                     "dureader", "gov_report", "qmsum", "multi_news", "vcsum", "trec", "triviaqa", "samsum", "lsht", \
-#                     "passage_count", "passage_retrieval_en", "passage_retrieval_zh", "lcc", "repobench-p"]
-#     # we design specific prompt format and max generation length for each task, feel free to modify them to optimize model output
-#     dataset2prompt = json.load(open("config/dataset2prompt.json", "r"))
-#     dataset2maxlen = json.load(open("config/dataset2maxlen.json", "r"))
-#     # predict on each dataset
-#     if not os.path.exists("pred"):
-#         os.makedirs("pred")
-#     if not os.path.exists("pred_e"):
-#         os.makedirs("pred_e")
-#     for dataset in datasets:
-#         if args.e:
-#             data = load_dataset('THUDM/LongBench', f"{dataset}_e", split='test')
-#             if not os.path.exists(f"pred_e/{model_name}"):
-#                 os.makedirs(f"pred_e/{model_name}")
-#             out_path = f"pred_e/{model_name}/{dataset}.jsonl"
-#         else:
-#             file_path = os.path.join("/home/wanghesong/Datasets/LongBench", f"{dataset}.jsonl")
-#             data = load_dataset('json', data_files={'test': file_path}, split='test')
-#             if not os.path.exists(f"pred/{model_name}"):
-#                 os.makedirs(f"pred/{model_name}")
-#             out_path = f"pred/{model_name}/{dataset}.jsonl"
-#         prompt_format = dataset2prompt[dataset]
-#         max_gen = dataset2maxlen[dataset]
-#         data_all = [data_sample for data_sample in data]
-#         data_subsets = [data_all[i::world_size] for i in range(world_size)]
-#         processes = []
-#         for rank in range(world_size):
-#             p = mp.Process(target=get_pred, args=(rank, world_size, data_subsets[rank], max_length, \
-#                         max_gen, prompt_format, dataset, device, model_name, model2path, out_path))
-#             p.start()
-#             processes.append(p)
-#         for p in processes:
-#             p.join()
