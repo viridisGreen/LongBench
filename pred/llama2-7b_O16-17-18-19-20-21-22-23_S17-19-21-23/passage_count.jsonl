@@ -1,0 +1,200 @@
+{"pred": "\n\n### 100000000000000000000000000", "answers": ["8"], "all_classes": null, "length": 11221}
+{"pred": "\n\n```\n1: 1\n2: 2\n3: 3\n4: 4\n5: 5\n6: ", "answers": ["11"], "all_classes": null, "length": 9921}
+{"pred": "\n```\n\n### [INST]There are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these", "answers": ["13"], "all_classes": null, "length": 6578}
+{"pred": "\n\n```\n1000000000000000000000000000", "answers": ["44"], "all_classes": null, "length": 16346}
+{"pred": "\n\n```\n[INST]\n\nParagraph 1: In October 2017, Sami returns again to Salem amidst rum", "answers": ["2"], "all_classes": null, "length": 22099}
+{"pred": "\n\n```\n\n### 10. 10000000000000000000", "answers": ["7"], "all_classes": null, "length": 8383}
+{"pred": "\n\n### 100000000000000000000000000", "answers": ["7"], "all_classes": null, "length": 4974}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Oliver Crangle is a hate-ridden fanatic who lives in an apartment with his", "answers": ["45"], "all_classes": null, "length": 13970}
+{"pred": "\n\n```\n\n-   [INST]The longstanding president of the  \"International Women's Rights League\" (\"Ligue du droit international", "answers": ["4"], "all_classes": null, "length": 14086}
+{"pred": "\n\n```\n[INST]\n\nParagraph 1: A 24-day players' strike was called after Week 2. The games", "answers": ["31"], "all_classes": null, "length": 12357}
+{"pred": "", "answers": ["4"], "all_classes": null, "length": 15623}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["16"], "all_classes": null, "length": 11059}
+{"pred": "\n\n```\n[INST]\n1: Often coopetition takes place when companies that are in the same market work together in the\n2", "answers": ["5"], "all_classes": null, "length": 3991}
+{"pred": "\n\n```\n[INST]The first electrical gear shift mechanism sold on new automobiles was the Vulcan electric gear shift system,", "answers": ["44"], "all_classes": null, "length": 17077}
+{"pred": "\n\n```\n[INST]There are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraphs", "answers": ["19"], "all_classes": null, "length": 11340}
+{"pred": "\n\n```\n[INST]Three years later, Mike has the Mask of Shadows stripped away from him by the Chevaux Archanés", "answers": ["36"], "all_classes": null, "length": 10543}
+{"pred": "\n\n```\n[INST]\n1: Witton-le-Wear's last village shop closed in 1998, meaning the", "answers": ["24"], "all_classes": null, "length": 8141}
+{"pred": "\n\n```\n1000000000000000000000000000", "answers": ["12"], "all_classes": null, "length": 8534}
+{"pred": "\n\n```\n[INST]\nParagraph 1: One day, after Megumi, Hime, Yuko, and Iona help put", "answers": ["23"], "all_classes": null, "length": 13749}
+{"pred": "\n\n### 100000000000000000000000000", "answers": ["14"], "all_classes": null, "length": 5649}
+{"pred": "\n\n### 100000000000000000000000000", "answers": ["18"], "all_classes": null, "length": 13512}
+{"pred": "1, 2, 3, 4, 48, 49, 50, 51, 52, ", "answers": ["29"], "all_classes": null, "length": 14584}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["22"], "all_classes": null, "length": 12667}
+{"pred": "\n\n```\n[INST]\n1: 1\n2: 2\n3: 3\n4: 4\n5: 5", "answers": ["6"], "all_classes": null, "length": 6510}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["8"], "all_classes": null, "length": 6283}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["9"], "all_classes": null, "length": 13036}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Laser Squad is a turn-based tactics war game where the player completes objectives", "answers": ["26"], "all_classes": null, "length": 5249}
+{"pred": "\n\n```\nimport re\n\ndef solution(s):\n    return re.count(re.DOT_CALL, s)\n\n", "answers": ["26"], "all_classes": null, "length": 17369}
+{"pred": "", "answers": ["28"], "all_classes": null, "length": 10898}
+{"pred": "1, 2, 3, 4, 44, 45, 5, 6, 7, 8, ", "answers": ["43"], "all_classes": null, "length": 13330}
+{"pred": "13, 14, 15, 16, 17, 18, 19, 20, ", "answers": ["34"], "all_classes": null, "length": 13153}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Chai Wan () is the eastern terminus of the MTR  on Hong Kong Island", "answers": ["19"], "all_classes": null, "length": 9732}
+{"pred": "\n\n### 100000000000000000000000000", "answers": ["9"], "all_classes": null, "length": 9246}
+{"pred": "\n\n```\nimport re\n\ndef solution(s):\n    return re.count(re.S(r\"[INST]\"), s)", "answers": ["40"], "all_classes": null, "length": 11663}
+{"pred": "\n\n```\nimport '../../../lib/index.js';\n\nconst S = {\n  PARAGRAFES: 1,", "answers": ["14"], "all_classes": null, "length": 17590}
+{"pred": "\n\n```\n[INST]\nParagraph 1:\nThe most unique paragraph is 1.\n\nParagraph 2:\nThe most", "answers": ["26"], "all_classes": null, "length": 9718}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Aufrère was the eldest son of Anthony Aufrère (1730–", "answers": ["25"], "all_classes": null, "length": 13084}
+{"pred": "\n\n```\n[INST]\nParagraph 1: He moved to the Providence Grays in 1878 and remained there for the", "answers": ["13"], "all_classes": null, "length": 18601}
+{"pred": "\n\n### 100000000000000000000000000", "answers": ["35"], "all_classes": null, "length": 12177}
+{"pred": "\n\n### 100000000000000000000000000", "answers": ["20"], "all_classes": null, "length": 11563}
+{"pred": "\n\n```\nimport (\n\t\"github.com/kucuk/go-parsing\"\n\t\"github.com/kucuk", "answers": ["39"], "all_classes": null, "length": 16004}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Schwarz began his professional career as a forward for Ferencvárosi TC when he", "answers": ["7"], "all_classes": null, "length": 13534}
+{"pred": "\n\n```\n[INST]\nParagraph 1: In Akita Prefecture, authorities reported that twelve houses were dam...\nParagraph ", "answers": ["12"], "all_classes": null, "length": 10580}
+{"pred": "\n\n```\n[INST]\nIsmaïl is made up of eyes, sideburns, and a dress, tied with rope to a", "answers": ["16"], "all_classes": null, "length": 10333}
+{"pred": "\n\n```\n[INST]\n1: In 1965, Mézières arranged a working visa through a friend of Jijé", "answers": ["30"], "all_classes": null, "length": 14264}
+{"pred": "\n\n```\n\n### 10. 10000000000000000000", "answers": ["4"], "all_classes": null, "length": 11680}
+{"pred": "\n\n```\n[INST]\nParagraph 1: \"When I arrived these animals are common, even in the settled areas, as they are rare", "answers": ["21"], "all_classes": null, "length": 7461}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Ahern's The Squirrel Cage (1936–53", "answers": ["5"], "all_classes": null, "length": 12151}
+{"pred": "\n\n```\n[INST]\nParagraph 1: On December 13, 2009, Metro began operation on the Metro Silver", "answers": ["10"], "all_classes": null, "length": 6481}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Next in line for Bohemian crown was Rudolf's brother Matthias, but since Matth", "answers": ["6"], "all_classes": null, "length": 9456}
+{"pred": "\n\n```\n[INST]\n\nParagraph 1: Hugh of Arles was born in 880/1, the eldest surv", "answers": ["31"], "all_classes": null, "length": 8395}
+{"pred": "\n\n```\n[INST]\n1: For a long time, the symphony was believed to be a work of Schub\n\n2: The", "answers": ["13"], "all_classes": null, "length": 4822}
+{"pred": "1, 2, 3, 4, 40, 41, 42, 43, 44]\n", "answers": ["9"], "all_classes": null, "length": 11201}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["11"], "all_classes": null, "length": 11740}
+{"pred": "\n\n```\n[INST]\n1: The school was originally located in Santurce but the Jesuits moved it to its current location in San Juan", "answers": ["18"], "all_classes": null, "length": 9707}
+{"pred": "\n\n```\n[INST]\nAs municipal seat, the town of Valle de Bravo has governing jurisdiction over the following communities: San Mateo", "answers": ["7"], "all_classes": null, "length": 7447}
+{"pred": "\n\n```\n[INST]\n\nParagraph 1: DS Head and DC Wombwell exited the car and walked over to the van", "answers": ["5"], "all_classes": null, "length": 6927}
+{"pred": "\n\n```\n[INST]\n1: Paragraph 1\n2: Paragraph 2\n3: Paragraph 3\n4: Par", "answers": ["5"], "all_classes": null, "length": 13709}
+{"pred": "\n\n```\n#!/usr/bin/perl\n\nuse strict;\nuse warnings;\n\n# read the file\nmy $file = \"", "answers": ["14"], "all_classes": null, "length": 16551}
+{"pred": "\n\n```\n[INST]\nParagraph 1: St John's Island served as a World War I and World War II internment camp.", "answers": ["40"], "all_classes": null, "length": 15237}
+{"pred": "\n\n```\n[1] 1\n[2] 2\n[3] 3\n[4] 4\n[5] ", "answers": ["18"], "all_classes": null, "length": 13155}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["2"], "all_classes": null, "length": 13433}
+{"pred": "\n\n```\n[1] 1\n[2] 2\n[3] 3\n[4] 4\n[5] ", "answers": ["20"], "all_classes": null, "length": 13372}
+{"pred": "\n\n```\n[INST]There are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraphs", "answers": ["30"], "all_classes": null, "length": 12589}
+{"pred": "\n\n```\n[INST]There are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraphs", "answers": ["12"], "all_classes": null, "length": 6751}
+{"pred": "\n\n```\n[INST]\n1: 2: 3: 4: 44: 45: 5: 6", "answers": ["43"], "all_classes": null, "length": 15519}
+{"pred": "", "answers": ["10"], "all_classes": null, "length": 10373}
+{"pred": "\n\n### 10. 10000000000000000000000", "answers": ["11"], "all_classes": null, "length": 6690}
+{"pred": "\n\n```\n[INST]\nParagraph 1: On the morning of October 28, Ryabtsev demanded that Berzin surrender", "answers": ["20"], "all_classes": null, "length": 8138}
+{"pred": "\n\n## 1000000000000000000000000000", "answers": ["37"], "all_classes": null, "length": 9910}
+{"pred": "", "answers": ["15"], "all_classes": null, "length": 9802}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Beverley sets up an appointment to tell him she knows the truth, but when she asks", "answers": ["17"], "all_classes": null, "length": 10817}
+{"pred": "\n\n```\n[INST]\nParagraph 1: During 1974, Sasol (Transvaal) Townships Limited,", "answers": ["5"], "all_classes": null, "length": 10977}
+{"pred": "\n\n```\n[INST]\n1: Yogi Johnson has a period during which he anguishes over the fact that he doesn't seem", "answers": ["9"], "all_classes": null, "length": 8150}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Years later, Heart is now a fully grown din...\n\nParagraph 2: Since", "answers": ["21"], "all_classes": null, "length": 7300}
+{"pred": "", "answers": ["26"], "all_classes": null, "length": 14083}
+{"pred": "\n\n```\n[INST]\n1: They storm Demetrio's compound; Armitage deals with Demetrio while Ross saves", "answers": ["19"], "all_classes": null, "length": 18136}
+{"pred": "\n\n```\n[INST]There are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraphs", "answers": ["9"], "all_classes": null, "length": 5562}
+{"pred": "\n\n```\n[INST]\nParagraph 1: As the new millennium started, Öre\n\n```\n\n```\n\n", "answers": ["10"], "all_classes": null, "length": 5442}
+{"pred": "14000000000000000000000000000000", "answers": ["17"], "all_classes": null, "length": 12213}
+{"pred": "\n\n```\nimport '../../../lib/index.js';\n\nconst {\n  Paragraph,\n  Paragraphs,\n  Par", "answers": ["5"], "all_classes": null, "length": 13084}
+{"pred": "\n\n```\n[INST]The answer is: [/INST]\n```\n\n## <a name=\"next-steps\"></a>Pós", "answers": ["13"], "all_classes": null, "length": 12754}
+{"pred": "\n\n```\n1000000000000000000000000000", "answers": ["5"], "all_classes": null, "length": 7079}
+{"pred": "", "answers": ["19"], "all_classes": null, "length": 8018}
+{"pred": "\n\n```\n[INST]\nThe song's main remix, titled Desert Storm Remix, features female rappers Da Brat and Miss", "answers": ["13"], "all_classes": null, "length": 9086}
+{"pred": "\n\n```\n[INST]There are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraphs", "answers": ["19"], "all_classes": null, "length": 11301}
+{"pred": "\n\n```\n[INST]\nParagraph 1: After the council was dissolved, Cesarini was sent as papal legate to Hung", "answers": ["12"], "all_classes": null, "length": 8771}
+{"pred": "\n\n```\n[INST]\nParagraph 1:\nThe Alton Railroad inaugurated the Ann Rutledge in 1937", "answers": ["15"], "all_classes": null, "length": 6573}
+{"pred": "\n\n```\n[INST]\n\nParagraph 1: 42nd (EL) Division was in GHQ Reserve when the German Spring", "answers": ["7"], "all_classes": null, "length": 5522}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Tettamanzi was born on 14 March 1934 in Renate", "answers": ["16"], "all_classes": null, "length": 10898}
+{"pred": "\n\n```\nimport '../../../lib/index.js';\n\nconst {\n  Paragraph,\n  Paragraphs,\n  Par", "answers": ["5"], "all_classes": null, "length": 8866}
+{"pred": "\n\n```\n[INST]The Dun Cow was said to be a savage beast roaming Dunsmore Heath, an area west of D", "answers": ["7"], "all_classes": null, "length": 11143}
+{"pred": "\n\n```\nimport '../../lib/index.js';\n\nconst {\n  Paragraph,\n  Paragraphs,\n  Paragraph", "answers": ["3"], "all_classes": null, "length": 11516}
+{"pred": "\n\n```\n[INST]\nThere are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraph", "answers": ["27"], "all_classes": null, "length": 11744}
+{"pred": "\n\n```\n\n[INST]There are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraph", "answers": ["21"], "all_classes": null, "length": 14392}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["8"], "all_classes": null, "length": 13321}
+{"pred": "\n\n```\n[INST]There are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraphs", "answers": ["26"], "all_classes": null, "length": 11086}
+{"pred": "\n\n## 1000000000000000000000000000", "answers": ["14"], "all_classes": null, "length": 9267}
+{"pred": "\n\n```\n[INST]\n\nParagraph 1: Entering the 2005–06 season, Horton stated in response", "answers": ["14"], "all_classes": null, "length": 6650}
+{"pred": "18\n\n## 10000000000000000000000000", "answers": ["13"], "all_classes": null, "length": 3554}
+{"pred": "\n\n```\n[INST]There are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraphs", "answers": ["10"], "all_classes": null, "length": 13846}
+{"pred": "\n\n```\n[INST]\n1: 1\n2: 2\n3: 3\n4: 4\n5: 5", "answers": ["11"], "all_classes": null, "length": 7488}
+{"pred": "\n\n```\n[INST]\nParagraph 1: When Seb is due to be released from young offenders, he meets with Phelan to", "answers": ["38"], "all_classes": null, "length": 13904}
+{"pred": "\n\n```\n[INST]\nParagraph 1: For several years Egypt had been wracked by the Fourth Fitna and Zacharias", "answers": ["11"], "all_classes": null, "length": 6245}
+{"pred": "1100", "answers": ["19"], "all_classes": null, "length": 10261}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["5"], "all_classes": null, "length": 18130}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Early on July 28, the JTWC upgraded the system to a tropical de", "answers": ["23"], "all_classes": null, "length": 12919}
+{"pred": "\n\n## 1000000000000000000000000000", "answers": ["21"], "all_classes": null, "length": 16375}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The origin of this goddess is in Ujjain, India. Indian emperor '", "answers": ["31"], "all_classes": null, "length": 14767}
+{"pred": "\n\n```\n[INST]There are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraphs", "answers": ["4"], "all_classes": null, "length": 9363}
+{"pred": "\n\n```\n[INST]\n1: Murphy was a preseason All-Big Ten selection by the Big Ten Media. Prior to the season", "answers": ["24"], "all_classes": null, "length": 9779}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["46"], "all_classes": null, "length": 14598}
+{"pred": "\n\n```\n[INST]The following paragraphs are sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraphs and", "answers": ["21"], "all_classes": null, "length": 14280}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The first execution of Jews took place just a few days into the occupation. The Germans shot", "answers": ["20"], "all_classes": null, "length": 10288}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Union Station, also known as New Haven Railroad Station  or simply New Haven,", "answers": ["11"], "all_classes": null, "length": 5651}
+{"pred": "\n\n```\n\n### 10. 10000000000000000000", "answers": ["30"], "all_classes": null, "length": 11494}
+{"pred": "\n\n```\n[INST]The poet Prosdocimo (baritone) is searching for a plot for a drama buffo. He meets a", "answers": ["2"], "all_classes": null, "length": 3967}
+{"pred": "\n\n```\n[INST]\nParagraph 1: In late 1999 the original Mascarita Sagrada left Asistencia", "answers": ["7"], "all_classes": null, "length": 8047}
+{"pred": "\n\n```\n[INST]\n1: At around age 13, [Sabrina]'s interest drifted toward rock music", "answers": ["14"], "all_classes": null, "length": 12816}
+{"pred": "\n\n## 10. 100000000000000000000000", "answers": ["29"], "all_classes": null, "length": 12602}
+{"pred": "\n\n```\n[INST]\n\nParagraph 1: In some car washes, the presoil application is followed by a space or idle", "answers": ["9"], "all_classes": null, "length": 6561}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Allegedly, Major was chosen to receive a Distinguished Conduct Medal. However,", "answers": ["41"], "all_classes": null, "length": 13506}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Head shape is circular with posterior margin flat to feebly concave medially in", "answers": ["25"], "all_classes": null, "length": 14899}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The Great Lakes Indoor Football League was founded in 2005 by brothers Eric", "answers": ["39"], "all_classes": null, "length": 12547}
+{"pred": "\n\n```\n[INST]Like his father before him, Imam Aqa Ali Shah maintained close ties with the Nimatullahi Sufi", "answers": ["18"], "all_classes": null, "length": 10765}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Rapidly becoming a powerful force in the East End, and having built a reputation running \"", "answers": ["7"], "all_classes": null, "length": 6447}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Meanwhile, Kigan's pandal attracts crowds. Bodhi makes plans to create", "answers": ["30"], "all_classes": null, "length": 18934}
+{"pred": "", "answers": ["9"], "all_classes": null, "length": 6231}
+{"pred": "\n\n```\nimport re\n\ndef solution(s):\n    return sum(re.findall(r'[+-]?\\d", "answers": ["28"], "all_classes": null, "length": 10433}
+{"pred": "\n\n```\n[INST]\nParagraph 1:\nAided by mild weather that rarely curtailed flying, their Huey gun", "answers": ["37"], "all_classes": null, "length": 12074}
+{"pred": "\n\n```\n[INST]\nThe second model referred to by the document (\"model 2\" in the ordering) was an improved method that combined servlet", "answers": ["5"], "all_classes": null, "length": 12913}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["33"], "all_classes": null, "length": 11704}
+{"pred": "\n\n```\n[1]\n```\n\n## 1000000000000000000", "answers": ["14"], "all_classes": null, "length": 6751}
+{"pred": "1, 2, 3, 43, 44, 45, 46, 47, 48,", "answers": ["21"], "all_classes": null, "length": 12119}
+{"pred": "1, 2, 3, 41, 42, 43, 44, 45, 46,", "answers": ["16"], "all_classes": null, "length": 12140}
+{"pred": "\n\n```\n1000000000000000000000000000", "answers": ["31"], "all_classes": null, "length": 16806}
+{"pred": "\n\n```\n[INST]\nParagraph 1: In the port of Marseilles, France, Honore Panisse, a well-to-", "answers": ["19"], "all_classes": null, "length": 12672}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Periyalvar was born into a Brahmin family in Srivilliputhur", "answers": ["12"], "all_classes": null, "length": 4960}
+{"pred": "\n\n```\n\n### 10. 10000000000000000000", "answers": ["3"], "all_classes": null, "length": 6404}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["32"], "all_classes": null, "length": 14244}
+{"pred": "\n\n```\n[INST]The meaning of term nakharar was evolving in parallel with consolidation of the noble houses' hereditary rights", "answers": ["44"], "all_classes": null, "length": 12279}
+{"pred": "\n\n```\n[INST]Allan was introduced to songwriter/producer Byron Hill on August 28, 1993,", "answers": ["23"], "all_classes": null, "length": 13851}
+{"pred": "\n\n```\n[INST]We re-released the song] because we were playing it every night since 1989, '90", "answers": ["17"], "all_classes": null, "length": 9334}
+{"pred": "1, 2, 3, 4, 42, 43, 44, 5, 6, 7,", "answers": ["39"], "all_classes": null, "length": 14435}
+{"pred": "\n\n### 100000000000000000000000000", "answers": ["23"], "all_classes": null, "length": 12927}
+{"pred": "\n\n### 100000000000000000000000000", "answers": ["11"], "all_classes": null, "length": 10543}
+{"pred": "\n\n```\n\n```\n\n## 10. 10. 10. 10. 10. 10", "answers": ["4"], "all_classes": null, "length": 17186}
+{"pred": "\n\n```\n[INST]There are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraphs", "answers": ["26"], "all_classes": null, "length": 15302}
+{"pred": "\n\n```\n[INST]\n1: Grey DeLis...\n2: ...\n3: ...\n4: ...\n5: ...\n", "answers": ["16"], "all_classes": null, "length": 6374}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["16"], "all_classes": null, "length": 10190}
+{"pred": "\n\n```\n[INST]\n1: On June 20, 2009, at Dominion 6.20, Apol", "answers": ["17"], "all_classes": null, "length": 5700}
+{"pred": "\n\n### 100000000000000000000000000", "answers": ["27"], "all_classes": null, "length": 15210}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Sabiha Kalolwala of The Indian Express wrote, \"Rakesh Roshan", "answers": ["7"], "all_classes": null, "length": 4858}
+{"pred": "\n\n```\n[INST]\nThe Bravery's first single \"An Honest Mistake\", was released in the UK on February 2", "answers": ["14"], "all_classes": null, "length": 9469}
+{"pred": "\n\n```\nimport re\n\ndef solution(s):\n    return re.findall(r'[INST]', s)\n\nif", "answers": ["31"], "all_classes": null, "length": 15454}
+{"pred": "\n\n```\n[INST]He succeeded in raising his grams enough in his sophomore year to allow him to play sports his junior year,", "answers": ["3"], "all_classes": null, "length": 13841}
+{"pred": "\n\n```\n[INST]\n100000000000000000000000", "answers": ["3"], "all_classes": null, "length": 9325}
+{"pred": "\n\n## 10. 100000000000000000000000", "answers": ["3"], "all_classes": null, "length": 6771}
+{"pred": "1, 2, 3, 4, 45, 46, 47, 48, 49]\n", "answers": ["9"], "all_classes": null, "length": 11684}
+{"pred": "\n\n```\n[INST]\nThe building, which was under construction in the 1970s and originally had a capacity of 1,", "answers": ["3"], "all_classes": null, "length": 13730}
+{"pred": "\n\n### 10. 10000000000000000000000", "answers": ["17"], "all_classes": null, "length": 8501}
+{"pred": "\n\n```\nimport '../../../lib/index.js';\n\nconst {\n  Paragraph,\n  Paragraphs,\n  Par", "answers": ["22"], "all_classes": null, "length": 13035}
+{"pred": "\n\n```\n[INST]\n1: The main theme of Chrono Tr...\n2: A nine-term member of the...\n3:", "answers": ["16"], "all_classes": null, "length": 9281}
+{"pred": "\n\n```\n[INST]There are some paragraphs below sourced from Wikipedia. Some of them may be duplicates. Please carefully read these paragraphs", "answers": ["17"], "all_classes": null, "length": 7400}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["4"], "all_classes": null, "length": 14283}
+{"pred": "\n\n### 10. 10000000000000000000000", "answers": ["7"], "all_classes": null, "length": 12616}
+{"pred": "\n\n```\n[INST]\n1: The rise of the  Mataqalikira clan of Lasakau began with Ratu T", "answers": ["38"], "all_classes": null, "length": 12285}
+{"pred": "\n\n## 1000000000000000000000000000", "answers": ["17"], "all_classes": null, "length": 14999}
+{"pred": "\n\n```\nimport '../../../lib/inst.js';\n\nconst INST = (() => {\n  const PARAG = ", "answers": ["15"], "all_classes": null, "length": 13557}
+{"pred": "1, 2, 3, 40, 41, 42, 43, 44, 45,", "answers": ["34"], "all_classes": null, "length": 15684}
+{"pred": "144\n\n## 1000000000000000000000000", "answers": ["5"], "all_classes": null, "length": 12236}
+{"pred": "\n\n```\n[INST]\n#include <iostream>\n#include <string>\n#include <vector>\n#include <string.h", "answers": ["22"], "all_classes": null, "length": 16104}
+{"pred": "\n\n```\n[INST]\n1: In Legacy, the coach the user plays as has coach ratings in different areas such as: Offense,", "answers": ["30"], "all_classes": null, "length": 9118}
+{"pred": "", "answers": ["9"], "all_classes": null, "length": 17635}
+{"pred": "\n\n```\nimport re\n\ndef solution(s):\n    return sum(re.findall(r'[+-]?\\d", "answers": ["6"], "all_classes": null, "length": 8470}
+{"pred": "163\n\n## 1000000000000000000000000", "answers": ["7"], "all_classes": null, "length": 5326}
+{"pred": "\n\n```\n[INST]\nParagraph 1: In efforts to aid an alternate-reality-displaced Tangent Flash (Lia", "answers": ["31"], "all_classes": null, "length": 12687}
+{"pred": "\n\n```\nimport '../../../lib/inst.js';\n\nconst solution = INST.findUniqueParagraphs(\n  \"", "answers": ["5"], "all_classes": null, "length": 5518}
+{"pred": "\n\n```\n[INST]\nParagraph 1: A 2014 edition of Faraon, in Poland, is furnished by", "answers": ["35"], "all_classes": null, "length": 15203}
+{"pred": "\n\n## 1000000000000000000000000000", "answers": ["24"], "all_classes": null, "length": 7955}
+{"pred": "", "answers": ["37"], "all_classes": null, "length": 12718}
+{"pred": "\n\n### 100000000000000000000000000", "answers": ["11"], "all_classes": null, "length": 12939}
+{"pred": "\n\n```\nimport '../../lib/index.js';\n\nconst {\n  Paragraph,\n  Paragraphs,\n  Paragraph", "answers": ["28"], "all_classes": null, "length": 12397}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Hasankeyf is rich in history throughout the ages and aside from the sites below, thousands", "answers": ["5"], "all_classes": null, "length": 11938}
+{"pred": "\n\n```\n[INST]Paragraph 1: On the morning of 14 August 1898, Mangrove approached Caib", "answers": ["4"], "all_classes": null, "length": 8543}
+{"pred": "\n\n```\n\n[INST]\n\n```\n\n[INST]\n\n```\n\n[INST]\n\n```\n\n[INST]", "answers": ["11"], "all_classes": null, "length": 8590}
+{"pred": "\n\n```\n[INST]\n1: American Laser Games was a company based in Albuquerque, New Mexico that created numerous light gun las", "answers": ["16"], "all_classes": null, "length": 9543}
+{"pred": "\n\n```\n[INST]The source of the commotion is a group of men pursuing a young woman who is swimming frantically away from", "answers": ["26"], "all_classes": null, "length": 13429}
+{"pred": "\n\n```\n[INST]The origin of the name of Staraya Russa is unclear. The most\n```\n\n```\n  important and w", "answers": ["10"], "all_classes": null, "length": 9585}
+{"pred": "\n\n```\n[INST]\n1: Paragraph 1\n2: Paragraph 2\n3: Paragraph 3\n4: Par", "answers": ["42"], "all_classes": null, "length": 15870}
+{"pred": "1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 1", "answers": ["26"], "all_classes": null, "length": 12313}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Arnoraja, who was a son of Dhavala and Kumarapala's", "answers": ["21"], "all_classes": null, "length": 6986}
+{"pred": "", "answers": ["19"], "all_classes": null, "length": 9484}
+{"pred": "\n\n### 100000000000000000000000000", "answers": ["26"], "all_classes": null, "length": 15479}
+{"pred": "\n\n```\n[INST]\n#include <iostream>\n#include <string>\n#include <string.h>\n#include <string", "answers": ["5"], "all_classes": null, "length": 9960}
+{"pred": "\n\n```\n[INST]\nParagraph 1: On 15 September 2012, Walcott came on as a substitute", "answers": ["20"], "all_classes": null, "length": 14973}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["15"], "all_classes": null, "length": 13734}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Naval training at this time took place on board ship, and having obtained a nomination and passing", "answers": ["10"], "all_classes": null, "length": 6073}
+{"pred": "\n\n```\n$ python3 count_unique_paragraphs.py\n1\n2\n3\n4\n42\n43\n44", "answers": ["17"], "all_classes": null, "length": 15984}
+{"pred": "\n\n```\nimport '../../../lib/index.js';\n\nconst {\n  Paragraph,\n  Paragraphs,\n  Par", "answers": ["28"], "all_classes": null, "length": 6972}

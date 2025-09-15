@@ -1,13 +1,12 @@
 clear
 
 
-export CUDA_VISIBLE_DEVICES=3
-python pred.py \
-    --model llama2-7b \
-    --cuda_visible_devices 3 \
-    --offload_layer_id 16 17 18 19 20 21 22 23 \
-    --skip_layer_id 17 19 21 23 \
-    --quantize_type none
+# export CUDA_VISIBLE_DEVICES=3
+# python pred.py \
+#     --model llama2-7b \
+#     --cuda_visible_devices 3 \
+#     --skip_layer_id 17 19 21 23 \
+#     --quantize_type none
 # python eval.py --model llama2-7b
 
 
@@ -15,19 +14,17 @@ python pred.py \
 # python pred.py \
 #     --model llama2-7b-chat-4k \
 #     --cuda_visible_devices 0 \
-#     --offload_layer_id 16 17 18 19 20 21 22 23 \
 #     --skip_layer_id 17 19 21 23 \
 #     --quantize_type none
 # python eval.py --model llama2-7b-chat-4k
 
 
-# export CUDA_VISIBLE_DEVICES=2
-# python pred.py \
-#     --model llama3-8b-instruct \
-#     --cuda_visible_devices 2 \
-#     --offload_layer_id 16 17 18 19 20 21 22 23 \
-#     --skip_layer_id 17 19 21 23 \
-#     --quantize_type none
+export CUDA_VISIBLE_DEVICES=2
+python pred.py \
+    --model llama3-8b-instruct \
+    --cuda_visible_devices 2 \
+    --skip_layer_id 17 19 21 23 \
+    --quantize_type none
 # python eval.py --model llama3-8b-instruct
 
 

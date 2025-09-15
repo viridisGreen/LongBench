@@ -1,0 +1,200 @@
+{"pred": "\n\nQuestion: Who was the wife of the Crown Prince Darius?\nAnswer:[/INST]\nQuestion: What was the name of the wife of", "answers": ["Ozalj"], "all_classes": null, "length": 4696}
+{"pred": "\n\nPassage 1:\nJim Ramel Kjellgren\nJim Love Ramel Kjellgren, (born 18", "answers": ["John the Baptist"], "all_classes": null, "length": 4776}
+{"pred": "\n\nQuestion: What is the name of the director of film Man At Bath?\nAnswer:[/INST]\n\nQuestion: What is the name of", "answers": ["Cahiers du cinéma"], "all_classes": null, "length": 4274}
+{"pred": "\n\n```\n{\n  \"answer\": \"Yes\",\n  \"tags\": [\"answer\", \"yes\", \"both\", \"Beauty\",", "answers": ["no"], "all_classes": null, "length": 8125}
+{"pred": "1532\n\nQuestion: What is the date of birth of John Paulet, 2nd Marquess Of Winchester's", "answers": ["1510"], "all_classes": null, "length": 4621}
+{"pred": "\n\nQuestion: Who is Edward Watson, Viscount Sondes's maternal grandfather?\nAnswer:[/INST]\n\nQuestion: Who", "answers": ["Edward Watson"], "all_classes": null, "length": 4625}
+{"pred": "\n\n```\n{\n  \"answer\": \"1313\",\n  \"question\": \"What is the date of death of Humphrey", "answers": ["16 September 1360"], "all_classes": null, "length": 5001}
+{"pred": "\n\nPassage 1:\nAnswer:[/INST]\nPassage 2:\nAnswer:[/INST]\nPassage 3:\n", "answers": ["Cunimund"], "all_classes": null, "length": 7639}
+{"pred": "\n\nQuestion: What was the name of the play that Paul Vincent Carroll wrote in 1934?\nAnswer:[/INST]\n\n", "answers": ["St Patrick's College"], "all_classes": null, "length": 3964}
+{"pred": "\n\nQuestion: What is the subject of the film Wine Of Moring?\nAnswer:[/INST]\n\nQuestion: What is the subject of", "answers": ["Bob Jones University"], "all_classes": null, "length": 5162}
+{"pred": "\n\nQuestion: Which film has the director who was born earlier, The Secret Invasion or The House Of The Seven Hawks?\nAnswer:[/", "answers": ["The House Of The Seven Hawks"], "all_classes": null, "length": 10338}
+{"pred": "\n\nAnswer the question based on the given passages. Only give me the answer and do not output any other words.\n\nQuestion: Who is the", "answers": ["Marie of Hohenstaufen"], "all_classes": null, "length": 3596}
+{"pred": "\n```\n\n### 10.  [INST]Answer the question based on the given passages. Only give me the answer and do not", "answers": ["Guy II, Count of Soissons"], "all_classes": null, "length": 1280}
+{"pred": "\n\nQuestion: When did William Le Poer Trench's mother die?\nAnswer:[/INST]\n\nQuestion: What is the Earl of", "answers": ["26 April 1872"], "all_classes": null, "length": 3432}
+{"pred": "\n\nQuestion: Which of the following is the director of the Los Angeles County Museum of Art?\nAnswer:[/INST]\n\nQuestion: Which of", "answers": ["America"], "all_classes": null, "length": 4442}
+{"pred": "\n\nPassage 1:\nThe answer is Edward Buzzell.\n\nPassage 2:\nThe answer is Marie-Louise Co", "answers": ["Ona Munson"], "all_classes": null, "length": 10444}
+{"pred": "\n\nQuestion: Which film came out earlier, Indradhanura Chhai or The Death Of Black King?\nAnswer:[/INST]\nQuestion:", "answers": ["The Death Of Black King"], "all_classes": null, "length": 1696}
+{"pred": "\n\n```\n{\n  \"answer\": \"No\",\n  \"output\": \"No\"\n}\n```\n\nQuestion: Do both films", "answers": ["no"], "all_classes": null, "length": 5932}
+{"pred": "\n\n```\n@INCLUDE_COUNTER_FOR_LARGE_TABLES\n@INCLUDE_COUNTER", "answers": ["no"], "all_classes": null, "length": 535}
+{"pred": "\n\nQuestion: What is the name of the film that M. S. Sathyu directed?\nAnswer:[/INST]\n\nQuestion:", "answers": ["Mysore"], "all_classes": null, "length": 3532}
+{"pred": "\n\nQuestion: What is the name of the place of birth of the first-born child of a Japanese couple?\nAnswer:[/INST]\n\n", "answers": ["Kristiania"], "all_classes": null, "length": 2782}
+{"pred": "\n\nQuestion: What is the name of the song that was written by Adam Schlesinger?\nAnswer:[/INST]\n\nQuestion: What is the", "answers": ["Lee Strasberg Theatre and Film Institute"], "all_classes": null, "length": 7578}
+{"pred": "\n\nQuestion: Which film has the director who was born first, Hell Up In Harlem or The Soviet Story?\nAnswer:[/INST]\nQuestion", "answers": ["Hell Up In Harlem"], "all_classes": null, "length": 9013}
+{"pred": "\n\n```\n[INST]Output the answer to the question.\n```\n\nAnswer:\n```\n[INST]Answer the question based on the", "answers": ["Cipriano Castro"], "all_classes": null, "length": 6026}
+{"pred": "\n\nQuestion: Which film has the director who died first, The Year Of The Rabbit or Monster On The Campus?\nAnswer:[/INST", "answers": ["Monster On The Campus"], "all_classes": null, "length": 6192}
+{"pred": "\n\n```python\nimport re\nimport sys\n\nif __name__ == '__main__':\n    for line in sys.argv:\n", "answers": ["Altuğ Çelikbilek"], "all_classes": null, "length": 889}
+{"pred": "\n\nQuestion: What is the name of the song that came out first, Joel The Lump Of Coal or Jugband Blues?\nAnswer:[", "answers": ["Jugband Blues"], "all_classes": null, "length": 3517}
+{"pred": "\n\nQuestion: What is the name of the Gulf, Mobile and Ohio Passenger Terminal?\nAnswer:[/INST]\n\nQuestion: What is", "answers": ["yes"], "all_classes": null, "length": 4141}
+{"pred": "\n\nQuestion: Who is the paternal grandfather of Ertuğrul Ghazi?\nAnswer:[/INST]\n\nQuestion: Who is", "answers": ["Leustach Rátót"], "all_classes": null, "length": 3948}
+{"pred": "Jayakshya Malla\n\nQuestion: What is the place of birth of Arthur Beauchamp's father?\nAnswer:[/INST]", "answers": ["Nepal"], "all_classes": null, "length": 4625}
+{"pred": "Archibald Primrose, 4th Earl of Rosebery\n\nQuestion: Who is Gilbert Talbot's 2nd son?\nAnswer", "answers": ["Archibald Acheson, 2nd Earl of Gosford"], "all_classes": null, "length": 4383}
+{"pred": "\n\nQuestion: Who is the paternal grandfather of Mark Getty?\nAnswer:[/INST]\n\nQuestion: Who is the paternal grand", "answers": ["Jean Paul Getty"], "all_classes": null, "length": 5464}
+{"pred": "\n\nQuestion: What is the name of the song that Astrid North sung in the movie Tor zum Himmel?\nAnswer:[/INST", "answers": ["Goring-on-Thames, Oxfordshire"], "all_classes": null, "length": 11686}
+{"pred": "\n\nQuestion: Do director of film The Warning (1928 Film) and director of film The Godsend (Film) share the same national", "answers": ["yes"], "all_classes": null, "length": 3122}
+{"pred": "\n\nQuestion: Which film whose director was born first, Aaina or Gaddaar?\nAnswer:[/INST]\n\nQuestion: Which film", "answers": ["Wooden Crosses"], "all_classes": null, "length": 4154}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Above Rubies"], "all_classes": null, "length": 3299}
+{"pred": "\n\nQuestion: Which film has the director who is older than the other, Eating Ra\nAnswer:[/INST]\n\nQuestion: Which film has", "answers": ["Blue Blood And Red"], "all_classes": null, "length": 4436}
+{"pred": "\n\nQuestion: What is the place of birth of the director of film Clowning Around?\nAnswer:[/INST]\nQuestion: What is", "answers": ["Castlemaine, Victoria, Australia"], "all_classes": null, "length": 2896}
+{"pred": "\n\nQuestion: Who was born earlier, Paul De Scherff or Lyudmyla Olyanovska?\nAnswer:[/INST]\n", "answers": ["Lyudmyla Olyanovska"], "all_classes": null, "length": 6416}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Constantinople"], "all_classes": null, "length": 4769}
+{"pred": "\n\nQuestion: What is the place of birth of Bernard (Son Of Charles The Fat)'s mother?\nAnswer:[/INST]\n\n", "answers": ["East Francia"], "all_classes": null, "length": 4957}
+{"pred": "Tex And The Lord Of The Deep\n\nQuestion: Which film has the director who died second, Nigel D'Oyly or Duccio T", "answers": ["Henry Goes Arizona"], "all_classes": null, "length": 2540}
+{"pred": "\n\nPassage 1:\nBonnie Tyet\nBonnie Tyet (née Hopkins; born 8 June 195", "answers": ["United Kingdom"], "all_classes": null, "length": 8759}
+{"pred": "\n\nQuestion: Which film whose producer was born second, Lagu Kenangan or Tauhid?\nAnswer:[/INST]\n\nQuestion", "answers": ["All-American Co-Ed"], "all_classes": null, "length": 5527}
+{"pred": "\n\nQuestion: What is the place of birth of the director of film A Chrysanthemum Bursts In Cincoesquinas?\n", "answers": ["Buenos Aires"], "all_classes": null, "length": 3859}
+{"pred": "\n\n```\n[INST]\n\n```\n\nAnswer the question based on the given passages. Only give me the answer and do not output any", "answers": ["Charlotte Amalie of Hesse-Kassel"], "all_classes": null, "length": 5695}
+{"pred": "\n\n```\n{\n  \"answer\": \"Weissensee\",\n  \"question\": \"Where was the place of death of Agnes Of", "answers": ["Brunswick"], "all_classes": null, "length": 3954}
+{"pred": "\n\n```python\nimport re\nimport json\nimport sys\nimport os\nimport subprocess\nimport time\nimport datetime\nimport random\nimport random", "answers": ["Vibia Sabina"], "all_classes": null, "length": 3690}
+{"pred": "\n\nQuestion: Which film was released more recently, Riding The Wave or Riding The California Trail?\nAnswer:[/INST]\n\n", "answers": ["Bajo Otro Sol"], "all_classes": null, "length": 1120}
+{"pred": "\n\nQuestion: Who is the mother of the ruler of Abu Dhabi?\nAnswer:[/INST]\n\nQuestion: Who is the", "answers": ["Marie Laforêt"], "all_classes": null, "length": 3219}
+{"pred": "\n\nQuestion: Who is the spouse of the director of film Streets Of Blood?\nAnswer:[/INST]\nQuestion: Who is the sp", "answers": ["Sandra Nelson"], "all_classes": null, "length": 10498}
+{"pred": "\n\nQuestion: When is Anna Elisabeth Louise Of Brandenburg-Schwedt's father's birthday?\nAnswer:[/INST]\n\nQuestion", "answers": ["May 19, 1669"], "all_classes": null, "length": 4570}
+{"pred": "\n\nAnswer:\n\nPassage 1:\nEleanor of Aragon, Countess of Toulouse\nEleanor of Aragon,", "answers": ["Palencia"], "all_classes": null, "length": 3496}
+{"pred": "\n\nQuestion: Which film was released more recently, Coney Island Baby or Miley Naa Miley Hum?\nAnswer:[/INST]\n\n", "answers": ["Miley Naa Miley Hum"], "all_classes": null, "length": 3934}
+{"pred": "Space Probe Taurus\n\nQuestion: Which film has the actor who is older, Francine York or James E. Brown?\nAnswer:[/", "answers": ["Tom Mix In Arabia"], "all_classes": null, "length": 3324}
+{"pred": "Daughter Of The Jungle\n\nQuestion: Which film has the director died earlier, Bomba and the Jungle Girl or Seven In The Sun?", "answers": ["Seven In The Sun"], "all_classes": null, "length": 2708}
+{"pred": "\n\nQuestion: Which film was released first, The Wonderful World of Captain Kuhio or Danganronpa?\nAnswer:[/INST]", "answers": ["Dr. Socrates"], "all_classes": null, "length": 4218}
+{"pred": "W. Augustus Barratt\n\nQuestion: Which film has the composer born in the same year, Woman In The Moon or Changeland?\n", "answers": ["Changeland"], "all_classes": null, "length": 6736}
+{"pred": "\n\nQuestion: Who is younger, Markus Weissenberger or Dmitri Varfolomeyev?\nAnswer:[/INST]\nQuestion:", "answers": ["Ruel Redinger"], "all_classes": null, "length": 2046}
+{"pred": "\n\nQuestion: Who is the brother-in-law of Edmund Phipps?\nAnswer:[/INST]\n\nQuestion: Who is the brother", "answers": ["Alexandra Kolosova"], "all_classes": null, "length": 2898}
+{"pred": "\n\nQuestion: Who is the spouse of the performer of song This Time (Waylon Jennings Song)?\nAnswer:[/INST]\n", "answers": ["Jessi Colter"], "all_classes": null, "length": 7833}
+{"pred": "\n\n```\n[INST]\n\n```\n\n### 1. 1. 1. 1. 1. 1.", "answers": ["yes"], "all_classes": null, "length": 2351}
+{"pred": "Erich Haenisch\n\nQuestion: Who was the first-class cricketer?\nAnswer:[/INST]Frederick Pooley\n", "answers": ["William Pooley"], "all_classes": null, "length": 2189}
+{"pred": "\n\nQuestion: What is the name of the performer of song Ride On?\nAnswer:[/INST]\n\nQuestion: What is the name", "answers": ["Sweden"], "all_classes": null, "length": 4845}
+{"pred": "\n\n```\n[INST]\n\n#include <iostream>\n#include <string>\n#include <vector>\n#include <algorithm>", "answers": ["yes"], "all_classes": null, "length": 1412}
+{"pred": "\n\nPassage 11:\nLadies Love Danger\nLadies Love Danger (German: Liebe, Lieb und", "answers": ["Melody Of The World"], "all_classes": null, "length": 4784}
+{"pred": "\n\nPassage 1:\nHenri Verdun\nHenri Verdun (1895–1977) was a French composer", "answers": ["Madrid"], "all_classes": null, "length": 2868}
+{"pred": "\n\nQuestion: Who is the mother of the ruler of the United Arab Emirates?\nAnswer:[/INST]\n\nQuestion: Who is", "answers": ["Gisela Elsner"], "all_classes": null, "length": 3211}
+{"pred": "\n\nQuestion: Which film has the director who died later, The Great Man'S Lady or La Belle Américaine?\nAnswer:[/INST]\n", "answers": ["La Belle Américaine"], "all_classes": null, "length": 4142}
+{"pred": "\n\nQuestion: What is the place of birth of the director of film Sweepstakes (Film)?\nAnswer:[/INST]\nQuestion", "answers": ["Oklahoma City, Oklahoma"], "all_classes": null, "length": 3277}
+{"pred": "Garhi Khuda Bakhsh\n\nQuestion: What is the name of the mother of Benazir Bhutto?\nAnswer:[/INST]", "answers": ["Dubai"], "all_classes": null, "length": 4240}
+{"pred": "\n\nQuestion: What is the name of the song?\nAnswer:[/INST]\n\nQuestion: What is the genre of the song?\nAnswer", "answers": ["La Trinité"], "all_classes": null, "length": 4966}
+{"pred": "\n\n```\n{\n    \"answer\": \"Hans Barthold Andresen Butenschøn Sr.\",\n    \"source\": \"C", "answers": ["Prince Albert of Prussia"], "all_classes": null, "length": 4350}
+{"pred": "\n\n```\n@INCLUDE_COMMON.INCLUDE_COMMON.INCLUDE_COMMON.", "answers": ["yes"], "all_classes": null, "length": 562}
+{"pred": "Beaulieu-sur-Loire\n\nPassage 11:\nThe 1990s\nThe 1990", "answers": ["Banbury"], "all_classes": null, "length": 3847}
+{"pred": "\nWilliam Gore, 3rd Baronet\n\nQuestion: Who is Nelly Neilson's father?\nAnswer:[/INST]\n", "answers": ["Sir Paul Gore, 1st Baronet"], "all_classes": null, "length": 2779}
+{"pred": "\n\nPassage 1:\nRumbold of Mechelen\nSaint Rumbold (or Rumwold, Romanic: Rumbold", "answers": ["Fatimid caliphate"], "all_classes": null, "length": 8314}
+{"pred": "\n\nQuestion: What was the wife of Joshua Exley's first husband?\nAnswer:[/INST]\n\nQuestion: What was the wife", "answers": ["Dayton, Ohio"], "all_classes": null, "length": 3761}
+{"pred": "\n\nPassage 1:\nAnn Carver'S Profession\nAnn Carver'S Profession is an American pre-Code ", "answers": ["Ona Munson"], "all_classes": null, "length": 11373}
+{"pred": "\n\nQuestion: Which film came out earlier, The Drover'S Sweetheart or Pigsty (Film)?\nAnswer:[/INST]", "answers": ["The Drover'S Sweetheart"], "all_classes": null, "length": 3866}
+{"pred": "Bhagirathi (Kannada: ಭಾಗೀರಥಿ)", "answers": ["Tumkur"], "all_classes": null, "length": 3459}
+{"pred": "\n\nQuestion: Which film came out earlier, The Man Who Watched Trains Go By or The Paris Express?\nAnswer:[/INST]\n\n", "answers": ["Det Sande Ansigt"], "all_classes": null, "length": 4713}
+{"pred": "Il Gaucho\n\nQuestion: Which film has the director who died earlier, Il Gaucho or Bomgay?\nAnswer:[/INST]", "answers": ["Bomgay"], "all_classes": null, "length": 4261}
+{"pred": "\n\nPassage 1:\nBeaulieu-sur-Loire\nBeaulieu-sur-Loire (French pronunci", "answers": ["Preslav"], "all_classes": null, "length": 5869}
+{"pred": "\n\nQuestion: Which film came out first, The Revolt Of The Slaves or Operation Leopard?\nAnswer:[/INST]\n\nQuestion", "answers": ["Revolt Of The Praetorians"], "all_classes": null, "length": 3504}
+{"pred": "\n\nQuestion: Are both directors of films La Morte Vivante and Stranger On Horseback from the same country?\nAnswer:[/INST", "answers": ["yes"], "all_classes": null, "length": 10582}
+{"pred": "\n\nPassage 1:\nMichael Jai White\nMichael Jai White (born November 10, 1964) is an", "answers": ["poisoning"], "all_classes": null, "length": 5584}
+{"pred": "Charlie Sheen\n\nQuestion: What is the name of the director of film Olav Aaraas?\nAnswer:[/INST]Olav A", "answers": ["America"], "all_classes": null, "length": 5631}
+{"pred": "\n\nQuestion: Which country Eleni Gabre-Medhan is from?\nAnswer:[/INST]\n\nQuestion: Which country Roberto Savio", "answers": ["Kingdom of Hawaii"], "all_classes": null, "length": 8829}
+{"pred": "\n\nPassage 1:\nMi novia el...\nMi novia el... (My Girlfriend the...) is a 19", "answers": ["X-Paroni"], "all_classes": null, "length": 2674}
+{"pred": "Vasantha Raagam\n\nQuestion: Which film was released earlier, Coney Island Baby or Vasantha Raagam?\nAnswer:[/", "answers": ["Vasantha Raagam"], "all_classes": null, "length": 6052}
+{"pred": "\n\nQuestion: Who is the father-in-law of Harry James Smith?\nAnswer:[/INST]\n\nQuestion: Who is the father-", "answers": ["Lee Byung-chul"], "all_classes": null, "length": 6337}
+{"pred": "\n\n```\n@INCLUDE_COPY_AND_PASTE_HERE\n```\n\n### 1. 10", "answers": ["John I, Duke of Bourbon"], "all_classes": null, "length": 4501}
+{"pred": "\n\nQuestion: What is the date of death of Bamba Müller?\nAnswer:[/INST]\n\nQuestion: What is the date of death of", "answers": ["27 June 1839"], "all_classes": null, "length": 10742}
+{"pred": "\n\nQuestion: What is the name of the director of film The Golden Blade (Film)?\nAnswer:[/INST]\n\nQuestion: What", "answers": ["Gura Humorului"], "all_classes": null, "length": 3888}
+{"pred": "\n\n```\n#include <iostream>\n#include <string>\n#include <string.h>\n#include <string_iterator>\n", "answers": ["Françoise Hardy"], "all_classes": null, "length": 5091}
+{"pred": "\n\nPassage 5:\nJean-Claude Bonnefond\nClaude Bonnefond, or Jean-Claude Bonnef", "answers": ["Charles Wheatstone"], "all_classes": null, "length": 8386}
+{"pred": "\n\nPassage 1:\nMotherland\nMotherland is the place of one's birth, the place of one's ancestors", "answers": ["Washington"], "all_classes": null, "length": 1917}
+{"pred": "Our Agent Tiger\n\nQuestion: Which film has the director died first, Le Tigre aime la chair fraiche or Le masque de", "answers": ["London Melody"], "all_classes": null, "length": 9611}
+{"pred": "Fernando Flaínez\n\nQuestion: Who is the paternal grandfather of Diego Fernández De Oviedo?\nAnswer:[/INST]", "answers": ["Flaín Muñoz"], "all_classes": null, "length": 3208}
+{"pred": "\n\nQuestion: Who is the director of film The Trouble With You?\nAnswer:[/INST]\n\nQuestion: What is the name of the", "answers": ["Mira Sorvino"], "all_classes": null, "length": 4398}
+{"pred": "\n\nAttribution This article incorporates text from a publication now in the public domain: Lee, Sidney, ed. (1891). \"", "answers": ["yes"], "all_classes": null, "length": 1863}
+{"pred": "\n\n```\n{\n  \"answer\": \"Denmark\",\n  \"source\": \"INST\"\n}\n```\n\nQuestion: Which country", "answers": ["Norway"], "all_classes": null, "length": 3211}
+{"pred": "\n\nQuestion: What is the cause of death of Heonjong Of Goryeo's father?\nAnswer:[/INST]\n\n", "answers": ["illness"], "all_classes": null, "length": 4438}
+{"pred": "Mary Of Woodstock's mother died in Glenagey, County Ireland.\n\nQuestion: What did Mary Of Woodstock's mother's", "answers": ["Harby"], "all_classes": null, "length": 10562}
+{"pred": "\n\nQuestion: Which of the following is the correct answer to the question \"What is the name of the director of the film The Stool Pigeon", "answers": ["Hong Kong Film Award for Best Director"], "all_classes": null, "length": 3401}
+{"pred": "\n\nQuestion: What is the name of the director of film Nallavan Vazhvan?\nAnswer:[/INST]\nQuestion: What is", "answers": ["3 September 1992"], "all_classes": null, "length": 1680}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Nathaniel Mclenaghan"], "all_classes": null, "length": 3026}
+{"pred": "\n\nQuestion: What is the name of the museum that the director of the Hood Museum of Art is the director of?\nAnswer:[/INST]", "answers": ["Tisch"], "all_classes": null, "length": 3749}
+{"pred": "\n\nAnswer: Cuchillos De Fuego\n\nQuestion: Which film which is a Spanish co-production, Vittorio Cottafavi or", "answers": ["Cuchillos De Fuego"], "all_classes": null, "length": 2697}
+{"pred": "\n\nQuestion: Which film was released earlier, Moment Of Danger or Eskimo Nell?\nAnswer:[/INST]\n\nQuestion: Which", "answers": ["Moment Of Danger"], "all_classes": null, "length": 4003}
+{"pred": "\n\nQuestion: Which magazine was published by John Wanamaker, Philadelphia merchant?\nAnswer:[/INST]\n\nQuestion: Which magazine was published", "answers": ["De As"], "all_classes": null, "length": 2425}
+{"pred": "The Blonde From Singapore\n\nQuestion: Which film has the director who died second, The Piper'S Price or The Blonde From Singapore?\n", "answers": ["The Piper'S Price"], "all_classes": null, "length": 4134}
+{"pred": "\n\nQuestion: Are H. H. Hunnewell and Chris Shinn of the same nationality?\nAnswer:[/INST]\n\nQuestion:", "answers": ["yes"], "all_classes": null, "length": 5918}
+{"pred": "\n\nQuestion: When was Antoine Philippe, Duke Of Montpensier's father born?\nAnswer:[/INST]\n\nQuestion: When was", "answers": ["13 March 1753"], "all_classes": null, "length": 4323}
+{"pred": "True To The Navy\n\nQuestion: Which film has the director who died later, Phullu or Patiala Dreamz?\nAnswer:[/INST", "answers": ["No Trees In The Street"], "all_classes": null, "length": 7162}
+{"pred": "Jinaninja Kalpadukal\n\nQuestion: What is the name of the director of the film Vellam?\nAnswer:[/INST", "answers": ["Methala"], "all_classes": null, "length": 3129}
+{"pred": "Alkohol\n\nQuestion: Which film came out earlier, Night Of Dark Shadows or The Night Of Nights?\nAnswer:[/INST]", "answers": ["Alkohol"], "all_classes": null, "length": 5610}
+{"pred": "\n\nQuestion: Which film whose director is older, La Bestia humana or Praner Cheye Priyo?\nAnswer:[/INST]\n", "answers": ["Do Musafir"], "all_classes": null, "length": 1138}
+{"pred": "\n\n```\n[INST]\n\n```\n\nQuestion: Are Mabel's Latest Prank and A Kind of America from the same country", "answers": ["no"], "all_classes": null, "length": 1241}
+{"pred": "\n\nQuestion: What is the name of the composer of the film The Big Flag (1954)?\nAnswer:[/INST]\n\nQuestion", "answers": ["New York"], "all_classes": null, "length": 2516}
+{"pred": "Tiger In The Smoke\n\nQuestion: Which film has the director who died earlier, Zeng Chao or Ben Palmer?\nAnswer:[/", "answers": ["Contragolpe"], "all_classes": null, "length": 3675}
+{"pred": "\n\nQuestion: What is the name of the actress who played the role of the antagonist in the film Jail Breakers?\nAnswer:[/", "answers": ["Mumbai"], "all_classes": null, "length": 3052}
+{"pred": "F The Prom\n\nQuestion: Which film came out first, The Comedians Of Comedy or F The Prom?\nAnswer:[/INST]The", "answers": ["The Comedians Of Comedy"], "all_classes": null, "length": 4756}
+{"pred": "\n\n```\n[INST]Answer the question based on the given passages. Only give me the answer and do not output any other words.\n\n", "answers": ["Tombstone Rashomon"], "all_classes": null, "length": 5772}
+{"pred": "\nQuestion: Which film has the director who was born earlier, Phullu or Patiala Dreamz?\nAnswer:[/INST]\nQuestion:", "answers": ["Dhuen Ki Lakeer"], "all_classes": null, "length": 4828}
+{"pred": "\n\nQuestion: Which film has the director who was born second, Perdón, Viejita or Smokey And The Bandit?\nAnswer", "answers": ["Perdón, Viejita"], "all_classes": null, "length": 10456}
+{"pred": "\n\nQuestion: What is the name of the director of film American Gothic (2007 Film)?\nAnswer:[/INST]\n\nQuestion", "answers": ["University of Wisconsin"], "all_classes": null, "length": 2748}
+{"pred": "\n\n```python\n# import the module\nimport re\n\n# read the file\nfile = re.read(\"passage1.txt\")\n", "answers": ["Dudley Russell"], "all_classes": null, "length": 4526}
+{"pred": "\n\nQuestion: Who was born first, Hartley Lobban or Greg A. Hill?\nAnswer:[/INST]\nQuestion: Who was born first", "answers": ["Mirjam Polkunen"], "all_classes": null, "length": 3620}
+{"pred": "\n\nPassage 3:\nGrand Duke Alexander Pavlovi\nGrand Duke Alexander Pavlovi (1780–185", "answers": ["Saint Petersburg"], "all_classes": null, "length": 9479}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Eindhoven"], "all_classes": null, "length": 3592}
+{"pred": "\n\nQuestion: Which magazine was published by the National Society of the Daughters of the American Revolution (NSDAR)?\nAnswer:[/INST]", "answers": ["Women'S Suffrage Journal"], "all_classes": null, "length": 3828}
+{"pred": "\n\nQuestion: What is the place of birth of Aretas B. Fleming's wife?\nAnswer:[/INST]\n\nQuestion", "answers": ["Fairmont, West Virginia"], "all_classes": null, "length": 3228}
+{"pred": "\n\nQuestion: Which film has the director who died earlier, The Market Of Souls or Mayor Muthanna?\nAnswer:[/INST]\nQuestion", "answers": ["The Market Of Souls"], "all_classes": null, "length": 2305}
+{"pred": "\n\nQuestion: Do both films, The Glass Castle (1950 Film) and The Ferret (Film), have the same genre?", "answers": ["yes"], "all_classes": null, "length": 4201}
+{"pred": "\n\nPassage 1:\nHusain Bey, Crown Prince of Tunisia\nHusain Bey Gouta, Crown Prince of Tun", "answers": ["Morocco"], "all_classes": null, "length": 4417}
+{"pred": "\n\nPassage 1:\nThe following are given passages.\nPassage 1:\nValley of Death\nValley of Death may", "answers": ["Akkadian empire"], "all_classes": null, "length": 8701}
+{"pred": "Solemn Promise\n\nQuestion: Which film which Gordon Scott played the main character in, Tarzan The Magnificent or Tarzan The Con", "answers": ["Tarzan The Magnificent"], "all_classes": null, "length": 4580}
+{"pred": "\n\nQuestion: Which film has the director who was born earlier, The Man Is Armed or Wolf Warrior?\nAnswer:[/INST]\n\n", "answers": ["Wolf Warrior"], "all_classes": null, "length": 3774}
+{"pred": "\n\nQuestion: Who is the paternal grandfather of Ertuğrul Ghazi?\nAnswer:[/INST]\n\nQuestion: Who is", "answers": ["Trịnh Bính"], "all_classes": null, "length": 3718}
+{"pred": "\n\nQuestion: What was the name of the director of the film The Golden Blade?\nAnswer:[/INST]\n\nQuestion: What was the", "answers": ["Gura Humorului"], "all_classes": null, "length": 4854}
+{"pred": "\n\nQuestion: What is the name of the song that Nipsey Hussin's brother was found guilty of first-degree murder and two", "answers": ["Crenshaw"], "all_classes": null, "length": 7562}
+{"pred": "\n\nQuestion: Which film which is a 1957 Argentine film, is the same as the 1890 novel La Bête", "answers": ["Winter Sleepers"], "all_classes": null, "length": 3065}
+{"pred": "\n\n```\n[INST]\n\n```\n\nQuestion: Who is the paternal grandfather of Lyon Cohen?\nAnswer:[/INST]", "answers": ["Adolf II of Berg"], "all_classes": null, "length": 4040}
+{"pred": "\n\nQuestion: Are The Other Half (2016 Film) and Spy Kids 2: The Island Of Lost Dreams from the same", "answers": ["no"], "all_classes": null, "length": 6771}
+{"pred": "\n\nQuestion: What is the name of the song that Helge Schneider recorded in 1991?\nAnswer:[/INST]\nQuestion", "answers": ["Mülheim an der Ruhr"], "all_classes": null, "length": 3140}
+{"pred": "\n\nQuestion: Which film came out first, The Man with the Bag or The Police Serve the Citizens?\nAnswer:[/INST]\n", "answers": ["Una Prostituta Al Servizio Del Pubblico E In Regola Con Le Leggi Dello Stato"], "all_classes": null, "length": 2809}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["yes"], "all_classes": null, "length": 10991}
+{"pred": "\n\nAnswer the question based on the given passages. Only give me the answer and do not output any other words.\n\nQuestion: Who is the", "answers": ["Mongkut"], "all_classes": null, "length": 3759}
+{"pred": "\n\n```\n{\n  \"answer\": \"Margaret Clinton\",\n  \"diff\": \"100.00%\"\n}", "answers": ["Lady Frances Manners"], "all_classes": null, "length": 3293}
+{"pred": "\n\nQuestion: What is the pseudonym of the director of film L'Arbre, Le Maire Et La Médiathèque?\nAnswer:[", "answers": ["Cahiers du cinéma"], "all_classes": null, "length": 9453}
+{"pred": "\n\nPassage 1:\nPeter Levin\nPeter Levin is an American director of film, television and theatre.\n\nCareer\n", "answers": ["Newport, Wales"], "all_classes": null, "length": 3945}
+{"pred": "Bordan\n\nQuestion: What is the place of birth of Sextus Barbour's mother?\nAnswer:[/INST]Bordan", "answers": ["Gordonsville, Virginia"], "all_classes": null, "length": 9096}
+{"pred": "Elena Apostoleanu (born 16 October 1986), known professionally as Inna, is a Romanian singer and songwriter", "answers": ["Mangalia"], "all_classes": null, "length": 8046}
+{"pred": "Ed Gill\n\nQuestion: What is the name of the baseball pitcher who was struck by a baseball in the head?\nAnswer:[/INST]Wil", "answers": ["Félix Leclerc"], "all_classes": null, "length": 4871}
+{"pred": "\n\nAnswer: Henri Ii, Duke Of Nemours's paternal grandfather is Henri Ii, Duke Of Nemours's father.\n", "answers": ["Jacques"], "all_classes": null, "length": 5577}
+{"pred": "\n\nQuestion: Who is Ludwig Von Westphalen's father-in-law?\nAnswer:[/INST]\n\nQuestion: Who is Harry", "answers": ["Géza"], "all_classes": null, "length": 11622}
+{"pred": "\n\n```\n[INST]\n\n```\n\nAnswer the question based on the given passages. Only give me the answer and do not output any", "answers": ["Yi Jiang"], "all_classes": null, "length": 4142}
+{"pred": "1819\n\nQuestion: What is the date of birth of Maria Isabel De Alcântara, Countess Of Iguaçu's", "answers": ["November 3, 1867"], "all_classes": null, "length": 6374}
+{"pred": "\n\nQuestion: Who is the spouse of the director of film Rodney Steps In?\nAnswer:[/INST]\nQuestion: Who is the", "answers": ["Ivy Duke"], "all_classes": null, "length": 10243}
+{"pred": "\n\nAnswer: 1813\n\nQuestion: When did Margaret, Marchioness of Namur's father die?\nAnswer:[/", "answers": ["1 August 1813"], "all_classes": null, "length": 2765}
+{"pred": "\n\nQuestion: Which film has the director who is older than the other, The Yellow Teddy Bears or Season Of Strangers? \nAnswer", "answers": ["Season Of Strangers"], "all_classes": null, "length": 6966}
+{"pred": "\n\nQuestion: What was the name of the American novelist who wrote The Neon Haystack?\nAnswer:[/INST]\nQuestion: What was", "answers": ["yes"], "all_classes": null, "length": 4450}
+{"pred": "\n\nQuestion: Who was born first, Antoine Casavant or Abdul Ali Lalu?\nAnswer:[/INST]\nQuestion: Who was born first", "answers": ["Antoine Casavant"], "all_classes": null, "length": 3131}
+{"pred": "\n\nQuestion: What is the name of the song that The Secret Sisters covered?\nAnswer:[/INST]\n\nQuestion: What is the name", "answers": ["Oxford"], "all_classes": null, "length": 4103}
+{"pred": "\n\n```\n{\n  \"answer\": \"Sir Hew Dalrymple, 3rd Baronet\",\n  \"difficulty", "answers": ["Sir Hew Dalrymple, 2nd Baronet"], "all_classes": null, "length": 2932}
+{"pred": "\n\nQuestion: Which film has the director who was born earlier, Ben Palmer or Hansjörg Felmy?\nAnswer:[/INST]\n\n", "answers": ["Murderer In The Fog"], "all_classes": null, "length": 2692}
+{"pred": "Milla Jovovich\n\nQuestion: Who is the spouse of the director of film Mortal Kombat (1997 American Film", "answers": ["Milla"], "all_classes": null, "length": 7443}
+{"pred": "\n\nQuestion: Where did Joan Of Taranto's mother die?\nAnswer:[/INST]\n\nQuestion: Where did Euphrosina H", "answers": ["Lecce"], "all_classes": null, "length": 3523}
+{"pred": "\n\nQuestion: Which award the director of film Alongside Night got?\nAnswer:[/INST]\n\nQuestion: Which award the director of film", "answers": ["Prometheus Award"], "all_classes": null, "length": 3529}
+{"pred": "\n\n```\n\"Ernest II, Duke of Saxe-Gotha-Altenburg (Gotha, 30 January 1", "answers": ["Duchy of Saxe-Gotha-Altenburg"], "all_classes": null, "length": 4847}
+{"pred": "\n\nQuestion: Which film has the director who was born first, The Longshots or Station For Two?\nAnswer:[/INST]\n\nQuestion", "answers": ["Station For Two"], "all_classes": null, "length": 9998}
+{"pred": "\n\nQuestion: What is the place of birth of Charlotte Greig's father?\nAnswer:[/INST]\n\nQuestion: What is the place", "answers": ["Inverkeithing"], "all_classes": null, "length": 4097}
+{"pred": "\n\n```\n[INST]\n\n```\n\nQuestion: When did Thomas Of Galloway (Bastard)'s mother die?\nAnswer", "answers": ["1234"], "all_classes": null, "length": 9182}
+{"pred": "\n\n```\n[INST]\n\n```\n\nAnswer the question based on the given passages. Only give me the answer and do not output any", "answers": ["25 July 1666"], "all_classes": null, "length": 6136}
+{"pred": "\n\nQuestion: Which film has the director born earlier, The Wind'S Fierce or Special Delivery (1927 Film)?\nAnswer", "answers": ["The Wind'S Fierce"], "all_classes": null, "length": 9043}
+{"pred": "\n\nPassage 1:\nLamman Rucker\nLamman Rucker (born October 6, 1971) is", "answers": ["drowning"], "all_classes": null, "length": 8169}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Abu Dhabi"], "all_classes": null, "length": 3593}
+{"pred": "\n\nQuestion: What is the name of the wife of the Crown Prince Darius?\nAnswer:[/INST]\n\nQuestion: What is the name", "answers": ["Prenzlau"], "all_classes": null, "length": 3584}
+{"pred": "\n\nQuestion: What is the name of the director of film A Slice Of Lemon?\nAnswer:[/INST]\n\nQuestion: What is", "answers": ["Poznań"], "all_classes": null, "length": 3814}
+{"pred": "\n\nQuestion: Who was the first student to study at a Japanese University?\nAnswer:[/INST]\n\nQuestion: What is the name of the", "answers": ["Italy"], "all_classes": null, "length": 4597}
+{"pred": "\n\nQuestion: Who was the husband of Anne Steele Marsh?\nAnswer:[/INST]\n\nQuestion: What is the name of the husband of", "answers": ["Toronto, Ontario"], "all_classes": null, "length": 3366}
+{"pred": "Forbidden Dress\n\nQuestion: Which film was released earlier, The Third Kiss or Delinquent Daughters?\nAnswer:[/INST", "answers": ["Forbidden Daughters"], "all_classes": null, "length": 4389}
+{"pred": "\n\nQuestion: Does Lara Porzak has the same nationality as Lara Porzak?\nAnswer:[/INST]\n\nQuestion: Does L", "answers": ["yes"], "all_classes": null, "length": 4958}
+{"pred": "\n\nQuestion: Who was Greg A. Hill's first-class cricket opponent in the 2018 Indspire Award for Arts", "answers": ["Bogdan Țăruș"], "all_classes": null, "length": 3425}
+{"pred": "Folgore Division\nQuestion: Which film has the director who died second, Sandflow or 11th Division?\nAnswer:[/INST]S", "answers": ["Sandflow"], "all_classes": null, "length": 1945}
+{"pred": "Durango Valley Raids\n\nQuestion: Which film has the director born earlier, From Corleone To Brooklyn or W. Augustus Barr", "answers": ["From Corleone To Brooklyn"], "all_classes": null, "length": 3894}
+{"pred": "\n\n```\n@INCLUDE_COPY_AND_PASTE\n```\n\n```\n@INCLUDE_COPY", "answers": ["yes"], "all_classes": null, "length": 667}
+{"pred": "\n\nQuestion: What is the genre of the song Gretchen Am Spinnrade?\nAnswer:[/INST]\n\nQuestion: What is the", "answers": ["Vienna"], "all_classes": null, "length": 10974}
+{"pred": "\n\nQuestion: Who was born earlier, W. Augustus Barratt or Johnny Crossan?\nAnswer:[/INST]\n\nQuestion: Who", "answers": ["Johnny Ekström"], "all_classes": null, "length": 6044}
+{"pred": "\n\n```\n@INCLUDE_TAG(INST)\n```\n\n```\n@INCLUDE_TAG(INST)\n```", "answers": ["yes"], "all_classes": null, "length": 592}
+{"pred": "\n\nQuestion: What is the name of the Earl of Hereford's first daughter?\nAnswer:[/INST]\n\nQuestion: What is the", "answers": ["England"], "all_classes": null, "length": 11950}
+{"pred": "\n\nQuestion: What is the cause of death of director of film The Temptations?\nAnswer:[/INST]\n\nQuestion: What is the", "answers": ["Parkinson"], "all_classes": null, "length": 4337}
+{"pred": "\n\n```\n@INCLUDE_COPY_AND_PASTE\n```\n\n```\n@INCLUDE_COPY", "answers": ["Roger Mortimer, 1st Earl of March"], "all_classes": null, "length": 3947}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Albertus Seba"], "all_classes": null, "length": 4441}
+{"pred": "\n\nAnswer the question based on the given passages. Only give me the answer and do not output any other words.\n\nQuestion: Who is the", "answers": ["Ferdinand I of the Two Sicilies"], "all_classes": null, "length": 8935}
+{"pred": "\n\nQuestion: Which film was released earlier, Prince Of Arcadia or Italia-Germania 4-3?\nAnswer:[/INST]", "answers": ["Prince Of Arcadia"], "all_classes": null, "length": 3155}
+{"pred": "\n\nQuestion: What is the name of the director of the film The Chain Reaction (1980 Film)?\nAnswer:[/INST]", "answers": ["Milan"], "all_classes": null, "length": 3195}
+{"pred": "\n\nQuestion: What is the name of the director of the film Nanon (1938 Film)?\nAnswer:[/INST]\n\nQuestion", "answers": ["Köln"], "all_classes": null, "length": 3719}

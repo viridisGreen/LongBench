@@ -1,0 +1,200 @@
+{"pred": "\n\n```\n[1]\n```\n\n```\n[2]\n```\n\n```\n[3]\n```\n\n```\n[", "answers": ["Paragraph 15"], "all_classes": null, "length": 8525}
+{"pred": "\n\n*/\n\nusing System;\nusing System.Collections.Generic;\nusing System.Linq;\nusing System.Text;\nusing System", "answers": ["Paragraph 8"], "all_classes": null, "length": 8679}
+{"pred": "\n\n```\n[1] 1\n[2] 2\n[3] 3\n[4] 4\n[5] ", "answers": ["Paragraph 18"], "all_classes": null, "length": 9562}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The Other Side of the Wind is a 1972 film by Orson Welles", "answers": ["Paragraph 17"], "all_classes": null, "length": 9273}
+{"pred": "\n\nThe following is an abstract.\n\nThe text discusses the size and arrangement of magnetotactic crystals, which are crystals found", "answers": ["Paragraph 14"], "all_classes": null, "length": 9175}
+{"pred": "\n\nThe following is an abstract.\n\nThe text discusses how author John Scalzi uses his blog, called the Whatever, to raise money", "answers": ["Paragraph 3"], "all_classes": null, "length": 9139}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 24"], "all_classes": null, "length": 8832}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 27"], "all_classes": null, "length": 8995}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: The Lake C", "answers": ["Paragraph 30"], "all_classes": null, "length": 7789}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 12"], "all_classes": null, "length": 10027}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Canada (ITU Region 2): On July 28, 2022", "answers": ["Paragraph 22"], "all_classes": null, "length": 9273}
+{"pred": "\n\n```\n[1]\n```\n\n## 1000000000000000000", "answers": ["Paragraph 30"], "all_classes": null, "length": 10178}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 24"], "all_classes": null, "length": 9221}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 19"], "all_classes": null, "length": 9718}
+{"pred": "\n\n```\n[INST]\n\nParagraph 1: Chapters 1-3 of Book II continue the discussion of semen from the end", "answers": ["Paragraph 3"], "all_classes": null, "length": 11340}
+{"pred": "\n\n```\n[INST]\nParagraph 1: This large, violent wedge tornado touched down just southwest of Pembroke at ", "answers": ["Paragraph 8"], "all_classes": null, "length": 9750}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 3"], "all_classes": null, "length": 8965}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Hundreds", "answers": ["Paragraph 17"], "all_classes": null, "length": 8965}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Blazers", "answers": ["Paragraph 4"], "all_classes": null, "length": 9275}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Valentin St", "answers": ["Paragraph 3"], "all_classes": null, "length": 10934}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n```\n\n```\nParagraph 1", "answers": ["Paragraph 24"], "all_classes": null, "length": 9713}
+{"pred": "\n\n```\n[INST]\nParagraph 1: As one of the founders and president of the Savage Club in 1857", "answers": ["Paragraph 2"], "all_classes": null, "length": 9947}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Originally, transite had between 12-50% of asbestos fi", "answers": ["Paragraph 6"], "all_classes": null, "length": 8991}
+{"pred": "\n\n```\n[1]\n```\n\n### 1. 100000000000000", "answers": ["Paragraph 12"], "all_classes": null, "length": 9211}
+{"pred": "\n\n```\n[INST]\nParagraph 1: A wrench in International Broadcasting's application was a concurring proposed merger between", "answers": ["Paragraph 24"], "all_classes": null, "length": 8267}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 30"], "all_classes": null, "length": 8180}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 1"], "all_classes": null, "length": 10576}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 6"], "all_classes": null, "length": 9513}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Eddie Dee was born Eddie Ávila Ortiz on April 26,", "answers": ["Paragraph 8"], "all_classes": null, "length": 9747}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Santiago de Com", "answers": ["Paragraph 3"], "all_classes": null, "length": 7534}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The band released 3 vinyl-only EPs on the label through 200", "answers": ["Paragraph 1"], "all_classes": null, "length": 9908}
+{"pred": "\n\n```\n[INST]\nParagraph 1: For conspicuous gallantry and intrepidity at the risk of his life above and", "answers": ["Paragraph 25"], "all_classes": null, "length": 8838}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 19"], "all_classes": null, "length": 10016}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: From its in", "answers": ["Paragraph 22"], "all_classes": null, "length": 7992}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: His first role", "answers": ["Paragraph 5"], "all_classes": null, "length": 9899}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: The station,", "answers": ["Paragraph 15"], "all_classes": null, "length": 9483}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Touring Park Glienicke by coach was done on the Drive, the main park road", "answers": ["Paragraph 28"], "all_classes": null, "length": 10118}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: The band'", "answers": ["Paragraph 5"], "all_classes": null, "length": 8975}
+{"pred": "\n\n```\n[1] 1\n[2] 2\n[3] 3\n[4] 4\n[5] ", "answers": ["Paragraph 30"], "all_classes": null, "length": 9934}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract. Please determine which paragraph the abstract is from.\n", "answers": ["Paragraph 6"], "all_classes": null, "length": 7736}
+{"pred": "\n\n```\n[1] 123456789012345678901234", "answers": ["Paragraph 12"], "all_classes": null, "length": 8771}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 26"], "all_classes": null, "length": 10004}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 30"], "all_classes": null, "length": 9000}
+{"pred": "\n\nThe following is an abstract.\n\nThe tension surrounding the Western Wall and al-Aqsa mosque in Jerusalem is a key source of", "answers": ["Paragraph 6"], "all_classes": null, "length": 10255}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 12"], "all_classes": null, "length": 8776}
+{"pred": "\n\nThe following is an abstract.\n\nThe text describes a historical event that occurred in 1499 during the Ming Dynasty.", "answers": ["Paragraph 23"], "all_classes": null, "length": 10742}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 17"], "all_classes": null, "length": 10320}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 1"], "all_classes": null, "length": 8971}
+{"pred": "\n\n```\n[1]\n```\n\nThe following is an abstract.\n\nThe text describes the architectural features of square symmetrical towers", "answers": ["Paragraph 27"], "all_classes": null, "length": 10277}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Upon arrival in", "answers": ["Paragraph 21"], "all_classes": null, "length": 9525}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The journal Ex Tempore has been widely acclaimed in the Swiss press and received media attention from", "answers": ["Paragraph 27"], "all_classes": null, "length": 8674}
+{"pred": "\n\n```\n[1] 1\n[2] 2\n[3] 3\n[4] 4\n[5] ", "answers": ["Paragraph 29"], "all_classes": null, "length": 8629}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Art director Br", "answers": ["Paragraph 28"], "all_classes": null, "length": 9970}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Ratlinghope, in Domesday Rotelingrove, means the hope or valley", "answers": ["Paragraph 7"], "all_classes": null, "length": 8791}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Ahead of the 2012–13 season, Local club PSV E", "answers": ["Paragraph 15"], "all_classes": null, "length": 9949}
+{"pred": "\n\n```\n[1]\n```\n\n```\n[2]\n```\n\n```\n[3]\n```\n\n```\n[", "answers": ["Paragraph 22"], "all_classes": null, "length": 9832}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Waiy", "answers": ["Paragraph 16"], "all_classes": null, "length": 8952}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1:  An alternate", "answers": ["Paragraph 14"], "all_classes": null, "length": 8253}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 29"], "all_classes": null, "length": 10431}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 19"], "all_classes": null, "length": 10196}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: The mere fact", "answers": ["Paragraph 28"], "all_classes": null, "length": 10633}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: From the initial", "answers": ["Paragraph 26"], "all_classes": null, "length": 9824}
+{"pred": "\n\n```\n[1]\n```\n\n```\n[2]\n```\n\n```\n[3]\n```\n\n```\n[", "answers": ["Paragraph 1"], "all_classes": null, "length": 9324}
+{"pred": "\n\nThe following is an abstract.\n\nThe text explains that all four upper secondary schools in the greater Stockholm region are bilingual, with a quarter", "answers": ["Paragraph 10"], "all_classes": null, "length": 10299}
+{"pred": "\n\n```\n[INST]\n\nParagraph 1: A chronospecies is a species derived from a sequential development pattern that involves continual", "answers": ["Paragraph 8"], "all_classes": null, "length": 9489}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Volcanic", "answers": ["Paragraph 3"], "all_classes": null, "length": 8281}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: In the ", "answers": ["Paragraph 27"], "all_classes": null, "length": 8804}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 15"], "all_classes": null, "length": 8473}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 21"], "all_classes": null, "length": 9216}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Mid'hat be Frashër was the son of prominent Albanian politician and statesman", "answers": ["Paragraph 28"], "all_classes": null, "length": 10941}
+{"pred": "\n\n```\n[1] 1. 1. 1. 1. 1. 1. 1. 1. ", "answers": ["Paragraph 5"], "all_classes": null, "length": 10198}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: On 6", "answers": ["Paragraph 9"], "all_classes": null, "length": 8526}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Mark Mallman", "answers": ["Paragraph 20"], "all_classes": null, "length": 8039}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 15"], "all_classes": null, "length": 9207}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: In 1", "answers": ["Paragraph 6"], "all_classes": null, "length": 9357}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Eric Koenig appears in the live-action Marvel Cinematic Universe television series Agents of", "answers": ["Paragraph 23"], "all_classes": null, "length": 9713}
+{"pred": "\n\n```\n[INST]\nParagraph 1: This regiment was organized at Augusta, Ga., in the summer of 1861", "answers": ["Paragraph 26"], "all_classes": null, "length": 8114}
+{"pred": "\n\n```\n[INST]\nParagraph 1: At a press conference on 28 June 2006 he confirmed that the club", "answers": ["Paragraph 18"], "all_classes": null, "length": 9148}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Cross-sectional studies can contain individual-level data (one record per individual, for example", "answers": ["Paragraph 11"], "all_classes": null, "length": 8795}
+{"pred": "\n\n```\n[1]\n```\n\n```\n[2]\n```\n\n```\n[3]\n```\n\n```\n[", "answers": ["Paragraph 18"], "all_classes": null, "length": 8491}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The circular shape of the churchyard suggests that a church was on the site before the Norman Con", "answers": ["Paragraph 7"], "all_classes": null, "length": 8642}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Young Pilgrim has received generally favorable reviews, albeit some mixed from music critics.", "answers": ["Paragraph 24"], "all_classes": null, "length": 11270}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 23"], "all_classes": null, "length": 9267}
+{"pred": "\n\n```\n[INST]\nParagraph 1: On 27 May 1964, Johnson invited his mentor,  Rich", "answers": ["Paragraph 27"], "all_classes": null, "length": 8747}
+{"pred": "\n\n```\n[1] 1\n[2] 2\n[3] 3\n[4] 4\n[5] ", "answers": ["Paragraph 18"], "all_classes": null, "length": 10176}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an\nabstract. Please determine which paragraph the abstract is from.", "answers": ["Paragraph 28"], "all_classes": null, "length": 8712}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Rob Johnson started the first six games of 2000 and finished those games 3", "answers": ["Paragraph 3"], "all_classes": null, "length": 8315}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 5"], "all_classes": null, "length": 9403}
+{"pred": "\n\n```\n[INST]\nParagraph 1: After leaving Steen & Strøb Invest, Stordalen struck out on his own", "answers": ["Paragraph 27"], "all_classes": null, "length": 10242}
+{"pred": "\n\n```\n[INST]\nParagraph 1: On 9 April, Nebojša and Smeli were sent to the southern Adriatic", "answers": ["Paragraph 24"], "all_classes": null, "length": 8143}
+{"pred": "\n\n```\n[1]\n```\n\n```\n[2]\n```\n\n```\n[3]\n```\n\n```\n[", "answers": ["Paragraph 29"], "all_classes": null, "length": 9508}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 23"], "all_classes": null, "length": 7817}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: However, by", "answers": ["Paragraph 17"], "all_classes": null, "length": 7533}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Wayne Cao (born Nguyễn Cảo; December 7, ", "answers": ["Paragraph 16"], "all_classes": null, "length": 9056}
+{"pred": "\n\nThe following is an abstract.\n\nThe text provides information about the family of Don Francisco Carascon and his relatives. Don Francisco was married to", "answers": ["Paragraph 18"], "all_classes": null, "length": 9565}
+{"pred": "\n\nThe following is an abstract.\n\nThe text discusses the history of McLaren cars, particularly their involvement in the Can-Am series", "answers": ["Paragraph 13"], "all_classes": null, "length": 10347}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The villages of Leidenstall, Reichartsweiler and Rehweiler may have", "answers": ["Paragraph 20"], "all_classes": null, "length": 9260}
+{"pred": "\n\n```\n[1]\n```\n\n```\n[2]\n```\n\n```\n[3]\n```\n\n```\n[", "answers": ["Paragraph 18"], "all_classes": null, "length": 11516}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 23"], "all_classes": null, "length": 9334}
+{"pred": "\n\n```\n[1]\n```\n\n```\n[2]\n```\n\n```\n[3]\n```\n\n```\n[", "answers": ["Paragraph 19"], "all_classes": null, "length": 10614}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 19"], "all_classes": null, "length": 9251}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The first method of traverse is to rely entirely on movement along a curved section of track or", "answers": ["Paragraph 30"], "all_classes": null, "length": 9922}
+{"pred": "\n\n```\n[1]\n```\n\nThe following is an abstract.\n\nThe San Jose Sharks and Edmonton Oilers faced off", "answers": ["Paragraph 13"], "all_classes": null, "length": 9459}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The Celynen Collieries' Institute (1908) and Memorial Hall (", "answers": ["Paragraph 9"], "all_classes": null, "length": 9025}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 22"], "all_classes": null, "length": 9717}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: In February ", "answers": ["Paragraph 11"], "all_classes": null, "length": 9446}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 3"], "all_classes": null, "length": 10308}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 12"], "all_classes": null, "length": 8558}
+{"pred": "\n\n```\n[INST]\n#include <iostream>\n#include <string>\n#include <string_view>\n#include <string", "answers": ["Paragraph 10"], "all_classes": null, "length": 9485}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: In the ", "answers": ["Paragraph 3"], "all_classes": null, "length": 8673}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 10"], "all_classes": null, "length": 9147}
+{"pred": "\n\n```\n[1]\n```\n\n### 1. What is the number of the paragraph that the text is from?\n\n```", "answers": ["Paragraph 2"], "all_classes": null, "length": 10298}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 27"], "all_classes": null, "length": 8716}
+{"pred": "\n\n```\n@type: <#>\n```\n\n### 1. 100000000000", "answers": ["Paragraph 7"], "all_classes": null, "length": 9171}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Israeli Legisl", "answers": ["Paragraph 20"], "all_classes": null, "length": 9357}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 25"], "all_classes": null, "length": 10597}
+{"pred": "\n\n```\n[1] 100000000000000000000000", "answers": ["Paragraph 30"], "all_classes": null, "length": 8070}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Tobin's first book of poems, Where the World is Made, won the K", "answers": ["Paragraph 9"], "all_classes": null, "length": 9095}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Irish orthography", "answers": ["Paragraph 14"], "all_classes": null, "length": 8867}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Quakers were one of the dissenting religious groups to emerge after the English Civil War", "answers": ["Paragraph 8"], "all_classes": null, "length": 9895}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 8"], "all_classes": null, "length": 9072}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 19"], "all_classes": null, "length": 10852}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: The show'", "answers": ["Paragraph 22"], "all_classes": null, "length": 9767}
+{"pred": "\n\n```\n[INST]\nParagraph 1: There is little written information about the people of Għargħun in earlier days. One", "answers": ["Paragraph 1"], "all_classes": null, "length": 9547}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: A  gauge", "answers": ["Paragraph 7"], "all_classes": null, "length": 8081}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 7"], "all_classes": null, "length": 7860}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The listing describes Georgetown Pike as located in both Fairfax and Arling", "answers": ["Paragraph 28"], "all_classes": null, "length": 9423}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: As the shooting", "answers": ["Paragraph 11"], "all_classes": null, "length": 7818}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: In the following", "answers": ["Paragraph 18"], "all_classes": null, "length": 10417}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: The 2", "answers": ["Paragraph 9"], "all_classes": null, "length": 8644}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Depending on which segment of Islamic societies are referred to, the application of aniconism", "answers": ["Paragraph 16"], "all_classes": null, "length": 8429}
+{"pred": "\n\n```\n[1] 1\n[2] 2\n[3] 3\n[4] 28\n[5]", "answers": ["Paragraph 8"], "all_classes": null, "length": 8931}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: After the Fly", "answers": ["Paragraph 27"], "all_classes": null, "length": 9098}
+{"pred": "\n\n```\n[INST]\nParagraph 1: This was the Yankees' third Series win over the Giants (1923", "answers": ["Paragraph 7"], "all_classes": null, "length": 8751}
+{"pred": "\n\n```\n[1]\n```\n\n```\n[2]\n```\n\n```\n[3]\n```\n\n```\n[", "answers": ["Paragraph 26"], "all_classes": null, "length": 9296}
+{"pred": "\n\n```\n[INST]\nParagraph 1: DCA Heroic Journey #1 (2016)\nAction Comics ", "answers": ["Paragraph 24"], "all_classes": null, "length": 9412}
+{"pred": "\n\n```\n[1]\n```\n\n```\n[2]\n```\n\n```\n[3]\n```\n\n```\n[", "answers": ["Paragraph 20"], "all_classes": null, "length": 9968}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 29"], "all_classes": null, "length": 9105}
+{"pred": "\n\n```\n[1] 1\n[2] 2\n[3] 3\n[4] 4\n[5] ", "answers": ["Paragraph 28"], "all_classes": null, "length": 8924}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: With the Act", "answers": ["Paragraph 6"], "all_classes": null, "length": 9991}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Paragraph 1"], "all_classes": null, "length": 10601}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: The album features", "answers": ["Paragraph 4"], "all_classes": null, "length": 8559}
+{"pred": "", "answers": ["Paragraph 29"], "all_classes": null, "length": 10041}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 11"], "all_classes": null, "length": 8851}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 7"], "all_classes": null, "length": 10303}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Following his election to the presidency of the United Nations General Assembly, he offered a statement interpreted", "answers": ["Paragraph 22"], "all_classes": null, "length": 9065}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Fernandez is perhaps the most ambidext...\n```\n\n```\nParagraph", "answers": ["Paragraph 8"], "all_classes": null, "length": 8976}
+{"pred": "\n\n```\n[INST]\nParagraph 1: In the early 1990s the Autococker quickly rose to become one of", "answers": ["Paragraph 28"], "all_classes": null, "length": 8863}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Tố H", "answers": ["Paragraph 23"], "all_classes": null, "length": 9616}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 8"], "all_classes": null, "length": 9063}
+{"pred": "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n", "answers": ["Paragraph 11"], "all_classes": null, "length": 8464}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Socompa", "answers": ["Paragraph 28"], "all_classes": null, "length": 9939}
+{"pred": "\n\n```\n[INST]The text describes the physical characteristics of a species of lizard. It focuses on details such as the large head with sw", "answers": ["Paragraph 16"], "all_classes": null, "length": 7539}
+{"pred": "\n\nThe answer is: [INST]\n\nThe answer is: [INST]\n\nThe answer is: [INST]\n\nThe answer is", "answers": ["Paragraph 2"], "all_classes": null, "length": 9321}
+{"pred": "\n\nThe following is an abstract.\n\nThis text provides a summary of the writing career and influence of Singaporean poet Edwin Thumboo.", "answers": ["Paragraph 1"], "all_classes": null, "length": 9976}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: As built,", "answers": ["Paragraph 2"], "all_classes": null, "length": 7814}
+{"pred": "\n\n```\n[1] 1\n[2] 2\n[3] 28\n[4] 29\n[5", "answers": ["Paragraph 28"], "all_classes": null, "length": 10274}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 7"], "all_classes": null, "length": 9091}
+{"pred": "\n\n```\n[1] 100000000000000000000000", "answers": ["Paragraph 27"], "all_classes": null, "length": 10887}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Everett's tightknit family respond awkwardly, and soon coldly, to", "answers": ["Paragraph 16"], "all_classes": null, "length": 9628}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: Blood aton", "answers": ["Paragraph 1"], "all_classes": null, "length": 8060}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 26"], "all_classes": null, "length": 9395}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract. Please determine which paragraph the abstract is from.\n", "answers": ["Paragraph 6"], "all_classes": null, "length": 8232}
+{"pred": "\n\n```\n[INST]\nParagraph 1: After serving in a backup role for 4 years, Smith replaced Rich Saul as the starting", "answers": ["Paragraph 15"], "all_classes": null, "length": 9132}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 14"], "all_classes": null, "length": 8557}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 25"], "all_classes": null, "length": 9374}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: After the Rus", "answers": ["Paragraph 6"], "all_classes": null, "length": 9024}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 2"], "all_classes": null, "length": 8492}
+{"pred": "\n\n```\n[INST]\n1: On 25 January 2007, Joe unexpectedly returns to the Fowlers' house", "answers": ["Paragraph 5"], "all_classes": null, "length": 8944}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: The Cater", "answers": ["Paragraph 12"], "all_classes": null, "length": 8243}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 12"], "all_classes": null, "length": 8452}
+{"pred": "\n\n```\n[1]\n```\n\nThe following is an abstract.\n\nThe Registry of World Record Size Shells is a list of", "answers": ["Paragraph 8"], "all_classes": null, "length": 8418}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 20"], "all_classes": null, "length": 9471}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: It was not", "answers": ["Paragraph 25"], "all_classes": null, "length": 8888}
+{"pred": "\n\n```\n[INST]\n```\n\n```\nParagraph 1: A wigw\n```\n\n```\nParagraph 2", "answers": ["Paragraph 23"], "all_classes": null, "length": 8088}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Each of the symbols on the Wheel represents one of the Racing Realms, inter-dimensional", "answers": ["Paragraph 30"], "all_classes": null, "length": 10318}
+{"pred": "\n\n```\n[INST]\nParagraph 1:  Lead (Pb): In the mid-1976, the EPA", "answers": ["Paragraph 7"], "all_classes": null, "length": 10754}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The groups supporting Laurentius and Symmachus split the clergy, Senate and common people", "answers": ["Paragraph 10"], "all_classes": null, "length": 8055}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 30"], "all_classes": null, "length": 9471}
+{"pred": "\n\n```\n[1]\n```\n\n```\n[2]\n```\n\n```\n[3]\n```\n\n```\n[", "answers": ["Paragraph 9"], "all_classes": null, "length": 9415}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Early Bacon students were neither given a diploma nor graduated after four years, as they", "answers": ["Paragraph 17"], "all_classes": null, "length": 10382}
+{"pred": "\n\n```\n[1] 100000000000000000000000", "answers": ["Paragraph 30"], "all_classes": null, "length": 10098}
+{"pred": "\n\n```\n[INST]\nParagraph 1: This regiment was organized at Kenton, Hardin County, from Oct. to\nDec.,", "answers": ["Paragraph 10"], "all_classes": null, "length": 10972}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Tomás was one of four children born to José Ignacio Chávez Moros,", "answers": ["Paragraph 26"], "all_classes": null, "length": 8937}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 27"], "all_classes": null, "length": 8275}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Major Israel McCreight of Du Bois, Pennsylvania, was author and steward of Cook", "answers": ["Paragraph 26"], "all_classes": null, "length": 9032}
+{"pred": "\n\n```\n[INST]Ellen is an only child who does not have a real home, even at the time when both her parents are still", "answers": ["Paragraph 8"], "all_classes": null, "length": 7990}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: The most important", "answers": ["Paragraph 30"], "all_classes": null, "length": 9969}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 13"], "all_classes": null, "length": 9356}
+{"pred": "\n\n```\n[INST]Here are 30 paragraphs from Wikipedia, along with an abstract.\n\nParagraph 1: While the mounted", "answers": ["Paragraph 12"], "all_classes": null, "length": 9827}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 24"], "all_classes": null, "length": 8886}
+{"pred": "\n\n```\n[INST]\n\nParagraph 1: Cetto La Qualunque: is the character perfectly managed the madness of mayors and", "answers": ["Paragraph 6"], "all_classes": null, "length": 7953}
+{"pred": "\n\n```\n[1]\n```\n\n```\n[2]\n```\n\n```\n[3]\n```\n\n```\n[", "answers": ["Paragraph 24"], "all_classes": null, "length": 9019}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The Federation starship Enterprise arrives at the planet Elba II, home to a Federation", "answers": ["Paragraph 25"], "all_classes": null, "length": 9668}
+{"pred": "\n\n```\n[INST]\n1: 1\n2: 2\n3: 3\n4: 4\n5: 5", "answers": ["Paragraph 24"], "all_classes": null, "length": 9446}
+{"pred": "\n\n```\n[INST]\nParagraph 1: The Stallions began the fourth quarter with McGough's first pass attempt of the contest", "answers": ["Paragraph 1"], "all_classes": null, "length": 9333}
+{"pred": "\n\n```\n[INST]\nParagraph 1: Pocahontas was the subject of widespread media coverage between May and July", "answers": ["Paragraph 25"], "all_classes": null, "length": 9006}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 2"], "all_classes": null, "length": 10134}
+{"pred": "\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n```\n\n", "answers": ["Paragraph 27"], "all_classes": null, "length": 8214}
+{"pred": "\n\n```\n[INST]\n\nParagraph 1: Mariano Paredes y Arrillaga was born in Mexico in the year 1", "answers": ["Paragraph 4"], "all_classes": null, "length": 10149}
