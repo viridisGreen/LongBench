@@ -21,6 +21,7 @@
 
 from typing import Callable, Optional, Union
 
+import argparse
 import torch
 from torch import nn
 
@@ -355,6 +356,7 @@ class Qwen3Model(Qwen3PreTrainedModel):
     @auto_docstring
     def forward(
         self,
+        offload_config: Optional[argparse.Namespace] = None,
         input_ids: Optional[torch.LongTensor] = None,
         attention_mask: Optional[torch.Tensor] = None,
         position_ids: Optional[torch.LongTensor] = None,
@@ -406,7 +408,11 @@ class Qwen3Model(Qwen3PreTrainedModel):
         # create position embeddings to be shared across the decoder layers
         position_embeddings = self.rotary_emb(hidden_states, position_ids)
 
-        for decoder_layer in self.layers[: self.config.num_hidden_layers]:
+        for i, decoder_layer in enumerate(self.layers[: self.config.num_hidden_layers]):
+            if offload_config is not None: 
+                if i in offload_config.skip_layer_id:
+                    # print(f"skip layer {i}")
+                    continue
             hidden_states = decoder_layer(
                 hidden_states,
                 attention_mask=causal_mask_mapping[decoder_layer.attention_type],
@@ -444,6 +450,7 @@ class Qwen3ForCausalLM(Qwen3PreTrainedModel, GenerationMixin):
     @auto_docstring
     def forward(
         self,
+        offload_config: Optional[argparse.Namespace] = None,
         input_ids: Optional[torch.LongTensor] = None,
         attention_mask: Optional[torch.Tensor] = None,
         position_ids: Optional[torch.LongTensor] = None,
@@ -478,6 +485,7 @@ class Qwen3ForCausalLM(Qwen3PreTrainedModel, GenerationMixin):
         "Hey, are you conscious? Can you talk to me?\nI'm not conscious, but I can talk to you."
         ```"""
         outputs: BaseModelOutputWithPast = self.model(
+            offload_config=offload_config,
             input_ids=input_ids,
             attention_mask=attention_mask,
             position_ids=position_ids,

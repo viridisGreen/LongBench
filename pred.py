@@ -2,8 +2,10 @@ import os
 from datasets import load_dataset
 import torch
 import json
-# from transformers_v4_56_1 import AutoTokenizer, LlamaTokenizer, LlamaForCausalLM, AutoModelForCausalLM
-from transformers_v4_31_0 import AutoTokenizer, LlamaTokenizer, LlamaForCausalLM, AutoModelForCausalLM
+if os.environ.get('CONDA_DEFAULT_ENV') == "lb":
+    from transformers_v4_31_0 import AutoTokenizer, LlamaTokenizer, LlamaForCausalLM, AutoModelForCausalLM    
+elif os.environ.get('CONDA_DEFAULT_ENV') == "lb-new":
+    from transformers_v4_56_1 import AutoTokenizer, LlamaTokenizer, LlamaForCausalLM, AutoModelForCausalLM
 from tqdm import tqdm
 import numpy as np
 import random
@@ -88,7 +90,7 @@ def build_chat(tokenizer, prompt, model_name):
             "<|im_start|>system\n"
             "You are a helpful, polite and knowledgeable assistant, don't think, just give the answer.<unthink><|im_end|>\n"
             "<|im_start|>user\n"
-            f"{prompt}<unthink><|im_end|>\n"
+            f"{prompt}<|im_end|>\n"
             "<|im_start|>assistant\n"
         )
 
@@ -266,15 +268,18 @@ if __name__ == "__main__":
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     for dataset in datasets:
         store_path = copy.deepcopy(model_name)
-        if args.offload_layer_id:
-            ids_str = '-'.join(map(str, args.offload_layer_id))
-            store_path += f"_O{ids_str}"
+        # if args.offload_layer_id:
+        #     ids_str = '-'.join(map(str, args.offload_layer_id))
+        #     store_path += f"_O{ids_str}"
         if args.skip_layer_id:
             ids_str = '-'.join(map(str, args.skip_layer_id))
             store_path += f"_S{ids_str}"
         if args.quantize_type != 'none':
             quant_level = ''.join(filter(str.isdigit, args.quantize_type)) # 从 "INT8" 中提取 "8"
             store_path += f"_Q{quant_level}"
+        if args.offload_layer_id and args.quantize_type != 'none':
+            ids_str = '-'.join(map(str, args.offload_layer_id))
+            store_path += f"_O{ids_str}"
         if args.e:
             # LongBench-E：从 hub 读取
             data = load_dataset("THUDM/LongBench", f"{dataset}_e", split="test")

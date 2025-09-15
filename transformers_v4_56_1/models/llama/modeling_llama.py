@@ -396,6 +396,7 @@ class LlamaModel(LlamaPreTrainedModel):
         for i, decoder_layer in enumerate(self.layers[: self.config.num_hidden_layers]):
             if offload_config is not None: 
                 if i in offload_config.skip_layer_id:
+                    print(f"skip layer {i}")
                     continue
             hidden_states = decoder_layer(
                 hidden_states,
