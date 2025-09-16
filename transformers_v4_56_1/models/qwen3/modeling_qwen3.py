@@ -408,11 +408,27 @@ class Qwen3Model(Qwen3PreTrainedModel):
         # create position embeddings to be shared across the decoder layers
         position_embeddings = self.rotary_emb(hidden_states, position_ids)
 
+        global_variance = 0
+        avg_variance = 0
+        skip_layer_id = []
+        print("---------------------------")
         for i, decoder_layer in enumerate(self.layers[: self.config.num_hidden_layers]):
-            if offload_config is not None: 
+            # normal layer skip
+            # if offload_config is not None: 
+            #     if i in offload_config.skip_layer_id:
+            #         # print(f"skip layer {i}")
+            #         continue
+            # adaptive layer skip
+            if offload_config is not None:
+                variance = hidden_states.pow(2).mean(-1, keepdim=True)
+                print(f"layer {i} variance: {variance.mean()}")
+                if i not in offload_config.skip_layer_id:
+                    global_variance += variance
+                    avg_variance = global_variance / (i + 1)
                 if i in offload_config.skip_layer_id:
-                    # print(f"skip layer {i}")
-                    continue
+                    if (variance.mean() > 2 * avg_variance.mean()).item():
+                        skip_layer_id.append(i)
+                        continue
             hidden_states = decoder_layer(
                 hidden_states,
                 attention_mask=causal_mask_mapping[decoder_layer.attention_type],
@@ -423,6 +439,8 @@ class Qwen3Model(Qwen3PreTrainedModel):
                 position_embeddings=position_embeddings,
                 **kwargs,
             )
+
+        print(f"skipped {len(skip_layer_id)} layers, layer ids: {skip_layer_id}")
 
         hidden_states = self.norm(hidden_states)
         return BaseModelOutputWithPast(

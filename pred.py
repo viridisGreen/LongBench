@@ -90,7 +90,7 @@ def build_chat(tokenizer, prompt, model_name):
             "<|im_start|>system\n"
             "You are a helpful, polite and knowledgeable assistant, don't think, just give the answer.<unthink><|im_end|>\n"
             "<|im_start|>user\n"
-            f"{prompt}<|im_end|>\n"
+            f"{prompt}<unthink><|im_end|>\n"
             "<|im_start|>assistant\n"
         )
 
