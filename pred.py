@@ -27,6 +27,8 @@ def parse_args(args=None):
     parser.add_argument('--offload_layer_id', type=int, nargs='+', help='List of layer IDs to offload')
     parser.add_argument('--skip_layer_id', type=int, nargs='+', help='List of layer IDs to skip')
     parser.add_argument('--quantize_type', type=str, default='none', choices=['none', 'INT8', 'INT4'], help='Quantization type')
+    parser.add_argument('--sparse_rate', type=float, default=None, help='Sparse rate')
+    parser.add_argument('--sparse_ratio', type=float, default=None, help='Sparse ratio')
     return parser.parse_args(args)
 
 # This is the customized building prompt for chat models
@@ -88,9 +90,9 @@ def build_chat(tokenizer, prompt, model_name):
         # ——无模板的安全回退（Qwen 常用 <|im_start|>/<|im_end|>）——
         prompt = (
             "<|im_start|>system\n"
-            "You are a helpful, polite and knowledgeable assistant, don't think, just give the answer.<unthink><|im_end|>\n"
+            # "You are a helpful, polite and knowledgeable assistant, don't think, just give the answer.<unthink><|im_end|>\n"
             "<|im_start|>user\n"
-            f"{prompt}<unthink><|im_end|>\n"
+            f"{prompt}<think><\think><|im_end|>\n"
             "<|im_start|>assistant\n"
         )
 
@@ -271,6 +273,11 @@ if __name__ == "__main__":
         # if args.offload_layer_id:
         #     ids_str = '-'.join(map(str, args.offload_layer_id))
         #     store_path += f"_O{ids_str}"
+        store_path += f"_CXT{max_length}"
+        if args.sparse_ratio is not None:
+            store_path += f"_ratio{args.sparse_ratio}"        
+        if args.sparse_rate is not None:
+            store_path += f"_rate{args.sparse_rate}"
         if args.skip_layer_id:
             ids_str = '-'.join(map(str, args.skip_layer_id))
             store_path += f"_S{ids_str}"
@@ -280,6 +287,7 @@ if __name__ == "__main__":
         if args.offload_layer_id and args.quantize_type != 'none':
             ids_str = '-'.join(map(str, args.offload_layer_id))
             store_path += f"_O{ids_str}"
+
         if args.e:
             # LongBench-E：从 hub 读取
             data = load_dataset("THUDM/LongBench", f"{dataset}_e", split="test")

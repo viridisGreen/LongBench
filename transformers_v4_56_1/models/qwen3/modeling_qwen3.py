@@ -24,6 +24,7 @@ from typing import Callable, Optional, Union
 import argparse
 import torch
 from torch import nn
+from ipdb import set_trace as st
 
 from ...activations import ACT2FN
 from ...cache_utils import Cache, DynamicCache
@@ -148,6 +149,30 @@ def eager_attention_forward(
         causal_mask = attention_mask[:, :, :, : key_states.shape[-2]]
         attn_weights = attn_weights + causal_mask
 
+    if query.shape[2] == 1:
+        # print("sparse attn_weights")
+        context_length = attn_weights.shape[-1]
+
+        # 假设这是你的超参数
+        sparse_rate = 0.01  # 在指定部分内，保留 10% 的最大值
+        sparse_ratio = 0.7        # 只对前 70% 的数据进行操作
+
+        # --- 2. 核心计算 ---
+        # a. 计算分割点，并将张量切分为两部分
+        split_index = int(sparse_ratio * context_length)
+        part_to_modify = attn_weights[..., :split_index]
+        part_to_keep = attn_weights[..., split_index:]
+
+        # b. 对第一部分执行 topk 操作 (逻辑和上次完全一样)
+        k = int(round(sparse_rate * part_to_modify.shape[-1]))
+        values, indices = torch.topk(part_to_modify, k, dim=-1)
+        modified_part = torch.zeros_like(part_to_modify).scatter_(-1, indices, values)
+
+        # c. 将处理好的部分和未处理的部分拼接回来
+        attn_weights = torch.cat([modified_part, part_to_keep], dim=-1)
+        
+        # st()
+
     attn_weights = nn.functional.softmax(attn_weights, dim=-1, dtype=torch.float32).to(query.dtype)
     attn_weights = nn.functional.dropout(attn_weights, p=dropout, training=module.training)
     attn_output = torch.matmul(attn_weights, value_states)
@@ -211,6 +236,7 @@ class Qwen3Attention(nn.Module):
             key_states, value_states = past_key_values.update(key_states, value_states, self.layer_idx, cache_kwargs)
 
         attention_interface: Callable = eager_attention_forward
+        self.config._attn_implementation = "eager"  # to verify our method (planB)
         if self.config._attn_implementation != "eager":
             attention_interface = ALL_ATTENTION_FUNCTIONS[self.config._attn_implementation]
 
@@ -408,10 +434,10 @@ class Qwen3Model(Qwen3PreTrainedModel):
         # create position embeddings to be shared across the decoder layers
         position_embeddings = self.rotary_emb(hidden_states, position_ids)
 
-        global_variance = 0
-        avg_variance = 0
-        skip_layer_id = []
-        print("---------------------------")
+        # global_variance = 0
+        # avg_variance = 0
+        # skip_layer_id = []
+        # print("---------------------------")
         for i, decoder_layer in enumerate(self.layers[: self.config.num_hidden_layers]):
             # normal layer skip
             # if offload_config is not None: 
@@ -419,16 +445,16 @@ class Qwen3Model(Qwen3PreTrainedModel):
             #         # print(f"skip layer {i}")
             #         continue
             # adaptive layer skip
-            if offload_config is not None:
-                variance = hidden_states.pow(2).mean(-1, keepdim=True)
-                print(f"layer {i} variance: {variance.mean()}")
-                if i not in offload_config.skip_layer_id:
-                    global_variance += variance
-                    avg_variance = global_variance / (i + 1)
-                if i in offload_config.skip_layer_id:
-                    if (variance.mean() > 2 * avg_variance.mean()).item():
-                        skip_layer_id.append(i)
-                        continue
+            # if offload_config is not None:
+            #     variance = hidden_states.pow(2).mean(-1, keepdim=True)
+            #     print(f"layer {i} variance: {variance.mean()}")
+            #     if i not in offload_config.skip_layer_id:
+            #         global_variance += variance
+            #         avg_variance = global_variance / (i + 1)
+            #     if i in offload_config.skip_layer_id:
+            #         if (variance.mean() > 2 * avg_variance.mean()).item():
+            #             skip_layer_id.append(i)
+            #             continue
             hidden_states = decoder_layer(
                 hidden_states,
                 attention_mask=causal_mask_mapping[decoder_layer.attention_type],
@@ -440,7 +466,7 @@ class Qwen3Model(Qwen3PreTrainedModel):
                 **kwargs,
             )
 
-        print(f"skipped {len(skip_layer_id)} layers, layer ids: {skip_layer_id}")
+        # print(f"skipped {len(skip_layer_id)} layers, layer ids: {skip_layer_id}")
 
         hidden_states = self.norm(hidden_states)
         return BaseModelOutputWithPast(
@@ -552,3 +578,14 @@ __all__ = [
     "Qwen3ForSequenceClassification",
     "Qwen3ForTokenClassification",
 ]
+
+
+# ipdb> query_states.shape
+# torch.Size([1, 32, 7508, 128])
+# ipdb> key_states.shape
+# torch.Size([1, 8, 7508, 128])
+# ipdb> value_states.shape
+# torch.Size([1, 8, 7508, 128])
+# ipdb> attn_output.shape
+# torch.Size([1, 7508, 32, 128])
+

@@ -29,5 +29,5 @@ export CUDA_VISIBLE_DEVICES=4
 python pred.py \
     --model qwen3-8b \
     --cuda_visible_devices 4 \
-    --skip_layer_id 20 21 22 23 24 25 26 27 28 29 30 \
-    --quantize_type none
+    --sparse_rate 0.01 \
+    --sparse_ratio 0.7
